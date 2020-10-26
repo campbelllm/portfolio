@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 import { NavLink } from "react-router-dom";
-import Flexbox from "flexbox-react";
+
 
 export const Nav = styled.nav`
     background-color: #F2E8CF;
