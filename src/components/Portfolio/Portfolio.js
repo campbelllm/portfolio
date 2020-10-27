@@ -7,6 +7,7 @@ import {
   CardImg,
   CardText,
 } from "./portfolioStyledComponents";
+import
 
 const Portfolio = () => {
   return (
@@ -14,7 +15,7 @@ const Portfolio = () => {
       <SectionOne>
         <Card>
           <CardImg>
-          <img class="card-img-top" src="../../Images//project1.png" alt="Actor Search"/>
+          <img class="card-img-top" src={"../../Images//project1.png"} alt="Actor Search"/>
           </CardImg>
           <CardText>
             <a href="https://sean-marten.github.io/project-1/" target="_blank" class="card-text">Actor Search</a>

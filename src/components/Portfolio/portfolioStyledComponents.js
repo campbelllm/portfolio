@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const MainPortfolio = styled.div`
-
+  padding: 50px 0px;
 `;
 
 export const SectionOne = styled.div`
@@ -30,10 +30,20 @@ export const CardImg = styled.div`
 `;
 
 export const CardText = styled.div`
-font-size: 36px;
-   color: #F2E8CF;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c6c6c;
+   
 
-   & :hover {
+  & a{
+    text-decoration: none;
+    font-size: 36px;
+    color: #F2E8CF;
+  }
+
+   & a:hover {
     color: #295151;
     text-decoration: none;
    }
