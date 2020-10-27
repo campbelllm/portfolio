@@ -10,25 +10,40 @@ export const ContactForm = styled.div`
   background-color: #819c8b;
   width: 90%;
   color: #f2e8cf;
-  padding: 100px;
+  padding: 50px;
+  text-align: center;
 
   & input {
     border: none;
     border-bottom: 2px solid #295151;
     background-color: #819c8b;
     border-radius: 0;
+    font-size: 20px;
+    margin-bottom:10px;
+  }
+
+
+  & label {
+    text-align: left;
+  }
+
+  & h1{
+
+  }
+
+  & p {
+    padding: 50px;
   }
 `;
 
 export const NameAndEmail = styled.div`
-  & input {
-    font-size: 16px;
-  }
+    margin-bottom: 20px;
 `;
 
 export const Name = styled.div`
-  margin-right: 5px;
+  margin-right: 30px;
   display: inline-grid;
+  width: 48%;;
   & label {
     float: left;
   }
@@ -36,20 +51,33 @@ export const Name = styled.div`
 
 export const Email = styled.div`
   display: inline-grid;
+  width: 48%;
+  margin-bottom: 20px;
 `;
 
 export const Subject = styled.div`
   display: inline-grid;
+  width: 100%;
+  margin-bottom: 20px;
 `;
 
 export const Message = styled.div`
   display: inline-grid;
+  width: 100%;
+  height: 100px;
+
+  & textarea {
+    border: none;
+    border-bottom: 2px solid #295151;
+    background-color: #819c8b;
+    border-radius: 0;
+  }
 `;
 
 export const StyledButton = styled.div`
   background-color: #295151;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-top: 20px;
   width: 100px;
   border-radius: 4px;

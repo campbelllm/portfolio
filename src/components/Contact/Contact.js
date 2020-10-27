@@ -50,11 +50,11 @@ const Contact = () => {
             <label for="subject">Subject</label>
           </Subject>
           <Message>
-            <input
+            <textarea
               type="text"
               name="message"
               ref={register({ required: true, maxLength: 1000 })}
-            />
+            ></textarea>
             <label for="Message">Message</label>
           </Message>
           <StyledButton type="submit">Submit</StyledButton>
