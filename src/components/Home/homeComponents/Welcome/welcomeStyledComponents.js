@@ -5,7 +5,6 @@ export const Jumbotron = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-}
 `;
 
 export const Hero = styled.div`

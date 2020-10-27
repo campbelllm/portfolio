@@ -10,7 +10,6 @@ export const Nav = styled.nav`
     border-bottom-color: #295151;
     position: fixed;
     width: 100%;
-    font-size: 18px;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +39,7 @@ export const StyledLink = styled(NavLink)`
   color: #295151;
   margin: 20px;
   text-decoration: none;
-
+  font-size: 16px;
 
   &:hover {
     color: #9c6c6c;

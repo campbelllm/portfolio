@@ -12,7 +12,7 @@ const Navbar = () => {
         <p>Lindsey Smith</p>
       </Logo>
       <Menu>
-        <StyledLink to="/Home">Home</StyledLink>
+        <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/about">About</StyledLink>
         <StyledLink to="/contact">Contact</StyledLink>
         <StyledLink to="/portfolio">Portfolio</StyledLink>
