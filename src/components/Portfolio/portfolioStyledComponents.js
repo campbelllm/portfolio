@@ -22,3 +22,19 @@ export const Card = styled.div`
     margin-bottom: 20px;
 
 `;
+
+export const CardImg = styled.div`
+  width: 300px;
+    height: 300px;
+    background-color: #F2E8CF;
+`;
+
+export const CardText = styled.div`
+font-size: 36px;
+   color: #F2E8CF;
+
+   & :hover {
+    color: #295151;
+    text-decoration: none;
+   }
+`;
