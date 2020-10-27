@@ -7,6 +7,5 @@ export const StyledFooter = styled.div`
     border-color: #295151;
     text-align: center;
     padding: 25px;
-    margin-top: 50px;
     position: absolute;
 `;
