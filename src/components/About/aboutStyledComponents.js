@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import picture from '../../Images/famPic.JPG'
+
 
 export const AboutMainComponent = styled.div`
     padding: 100px 0px;
