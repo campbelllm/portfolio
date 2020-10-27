@@ -20,13 +20,17 @@ export const SectionTwo = styled.div`
 export const Card = styled.div`
    border: 1px solid #9c6c6c;
     margin-bottom: 20px;
-
+  border-radius: 5px;
 `;
 
 export const CardImg = styled.div`
-  width: 300px;
-    height: 300px;
-    background-color: #F2E8CF;
+
+    & img {
+      width: 300px;
+      height: 300px;
+      background-color: #F2E8CF;
+    }
+  
 `;
 
 export const CardText = styled.div`
@@ -35,7 +39,6 @@ export const CardText = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #9c6c6c;
-   
 
   & a{
     text-decoration: none;

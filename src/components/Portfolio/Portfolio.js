@@ -7,7 +7,12 @@ import {
   CardImg,
   CardText,
 } from "./portfolioStyledComponents";
-import
+import actorSearchImg from "../../Images//project1.png";
+import weatherAppImg from "../../Images/weatherDashboard.png";
+import dayPlannerImg from "../../Images/dayPlanner.png" ;
+import quizGameImg from "../../Images/quizGame.png";
+import nytSearchImg from "../../Images/nytSearch.png";
+import passwordGeneratorImg from "../../Images/passwordGenerator.png" ;
 
 const Portfolio = () => {
   return (
@@ -15,7 +20,7 @@ const Portfolio = () => {
       <SectionOne>
         <Card>
           <CardImg>
-          <img class="card-img-top" src={"../../Images//project1.png"} alt="Actor Search"/>
+          <img class="card-img-top" src={actorSearchImg} alt="Actor Search"/>
           </CardImg>
           <CardText>
             <a href="https://sean-marten.github.io/project-1/" target="_blank" class="card-text">Actor Search</a>
@@ -23,7 +28,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src="../../Images/weatherDashboard.png" alt="Weather App"/>
+          <img class="card-img-top" src={weatherAppImg} alt="Weather App"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/weatherApp/index.html" target="_blank" class="card-text">Weather App</a>
@@ -31,7 +36,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src="../../Images/dayPlanner.png" alt="Day Planner"/>
+          <img class="card-img-top" src={dayPlannerImg} alt="Day Planner"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/dayPlanner/Develop/" target="_blank" class="card-text">Day Planner</a>
@@ -41,7 +46,7 @@ const Portfolio = () => {
       <SectionTwo>
         <Card>
           <CardImg>
-          <img class="card-img-top" src="../../Images/quizGame.png" alt="Quiz Game"/>
+          <img class="card-img-top" src={quizGameImg} alt="Quiz Game"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/quizGame/" target="_blank" class="card-text">Quiz Game</a>
@@ -49,7 +54,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src="../../Images/nytSearch.png" alt="NYT Search"/>
+          <img class="card-img-top" src={nytSearchImg} alt="NYT Search"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/NYT-search/NYTSearch/" target="_blank" class="card-text">NYT Search</a>
@@ -57,7 +62,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src="../../Images/passwordGenerator.png" alt="Password Generator"/>
+          <img class="card-img-top" src={passwordGeneratorImg} alt="Password Generator"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/passwordGenerator/Develop/index.html" target="_blank" class="card-text">Password Gen.</a>
