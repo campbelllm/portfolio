@@ -33,6 +33,12 @@ export const ContactForm = styled.div`
 
   & p {
     padding: 50px;
+   
+  }
+  @media (max-width: 950px){
+    p {
+      padding:20px 0;
+    }
   }
 `;
 
@@ -47,12 +53,19 @@ export const Name = styled.div`
   & label {
     float: left;
   }
+  @media (max-width: 950px){
+    width: 100%;
+    padding: 25px 0px;
+  }
 `;
 
 export const Email = styled.div`
   display: inline-grid;
   width: 48%;
   margin-bottom: 20px;
+  @media (max-width: 950px){
+    width:100%;
+  }
 `;
 
 export const Subject = styled.div`

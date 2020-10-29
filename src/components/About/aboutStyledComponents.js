@@ -6,6 +6,7 @@ export const AboutMainComponent = styled.div`
     padding: 100px 0px;
     display: flex;
     justify-content: center;
+   
 `;
 
 export const AboutContainer = styled.div`
@@ -13,6 +14,7 @@ export const AboutContainer = styled.div`
     background-color: #819C8B;
     padding: 40px;
     margin: 60px 0px;
+   
 `;
 
 export const AboutHeader = styled.div`
@@ -24,6 +26,11 @@ export const AboutHeader = styled.div`
 export const AboutBody = styled.div`
   display: flex;
   justify-content: space-between;
+  @media (max-width: 950px){
+      display: flex;
+      flex-direction: column;
+}
+ 
 `;
 
 export const FamilyPic = styled.div`
@@ -31,6 +38,13 @@ export const FamilyPic = styled.div`
     width: 45%;
     background-repeat: no-repeat;
     background-size: contain;
+    @media (max-width: 950px){
+      background-image: url(${picture});
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
 `;
 
 export const AboutText = styled.div`
@@ -40,4 +54,7 @@ export const AboutText = styled.div`
       
       margin-bottom: 20px;
     }
+    @media (max-width: 950px){
+     width: 90%;
+}
 `;
