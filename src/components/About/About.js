@@ -7,6 +7,7 @@ import {
   AboutText,
   AboutMainComponent
 } from "./aboutStyledComponents";
+import FamilyImg from '../../Images/famPic.JPG'
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
     <AboutContainer>
       <AboutHeader>Hello, I'm Lindsey</AboutHeader>
       <AboutBody>
-      <FamilyPic />
+      <FamilyPic /> 
       <AboutText>
       
         <p>

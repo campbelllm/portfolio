@@ -36,15 +36,11 @@ export const WelcomeText = styled.div`
     }
   }
 
-  @media screen and (min-width: 760px){
-      .welcome-text{
-          font-size: 200px;
-      }
+ @media (max-width: 800px){
+      
+          font-size: 100px;
+      
   }
 
-  @media screen and (max-width: 759px){
-      .welcome-text{
-          font-size: 25vw;
-      }
-  };
+  
 `;

@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import picture from '../../Images/famPic.JPG'
 
 
 export const AboutMainComponent = styled.div`
@@ -26,7 +27,7 @@ export const AboutBody = styled.div`
 `;
 
 export const FamilyPic = styled.div`
-    background-image: url(/static/media/famPic.15ca867c.JPG);
+    background-image: url(${picture});
     width: 45%;
     background-repeat: no-repeat;
     background-size: contain;

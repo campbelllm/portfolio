@@ -6,6 +6,11 @@ export const SquareSection = styled.div`
   justify-content: space-around;
   background-color: #f2e8cf;
   padding: 60px 0;
+
+  @media (max-width: 600px){
+      flex-direction: column;
+      align-items: center;
+}
 `;
 
 export const SquareBody = styled.div`
@@ -16,6 +21,10 @@ export const SquareBody = styled.div`
   height: 160px;
   background-color: #9c6c6c;
   border-radius: 1.5rem;
+  @media (max-width: 600px){
+      margin-bottom: 30px;
+      width: 50%;
+}
 `;
 
 export const StyledLink = styled(Link)`

@@ -20,7 +20,7 @@ const Portfolio = () => {
       <SectionOne>
         <Card>
           <CardImg>
-          <img class="card-img-top" src={actorSearchImg} alt="Actor Search"/>
+          <img src={actorSearchImg} alt="Actor Search"/>
           </CardImg>
           <CardText>
             <a href="https://sean-marten.github.io/project-1/" target="_blank" rel="noreferrer noopener" class="card-text">Actor Search</a>
@@ -28,7 +28,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src={weatherAppImg} alt="Weather App"/>
+          <img src={weatherAppImg} alt="Weather App"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/weatherApp/index.html" target="_blank" rel="noreferrer noopener" class="card-text">Weather App</a>
@@ -36,7 +36,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src={dayPlannerImg} alt="Day Planner"/>
+          <img src={dayPlannerImg} alt="Day Planner"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/dayPlanner/Develop/" target="_blank" rel="noreferrer noopener" class="card-text">Day Planner</a>
@@ -46,7 +46,7 @@ const Portfolio = () => {
       <SectionTwo>
         <Card>
           <CardImg>
-          <img class="card-img-top" src={quizGameImg} alt="Quiz Game"/>
+          <img src={quizGameImg} alt="Quiz Game"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/quizGame/" target="_blank" rel="noreferrer noopener" class="card-text">Quiz Game</a>
@@ -54,7 +54,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src={nytSearchImg} alt="NYT Search"/>
+          <img src={nytSearchImg} alt="NYT Search"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/NYT-search/NYTSearch/" target="_blank" rel="noreferrer noopener" class="card-text">NYT Search</a>
@@ -62,7 +62,7 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img class="card-img-top" src={passwordGeneratorImg} alt="Password Generator"/>
+          <img src={passwordGeneratorImg} alt="Password Generator"/>
           </CardImg>
           <CardText>
           <a href="https://campbelllm.github.io/passwordGenerator/Develop/index.html" target="_blank" rel="noreferrer noopener" class="card-text">Password Gen.</a>

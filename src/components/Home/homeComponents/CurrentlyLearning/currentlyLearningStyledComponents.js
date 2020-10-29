@@ -5,6 +5,11 @@ export const CurrentlyLearningContainer = styled.div`
     background-color: #F2E8CF;
     padding-bottom: 56px;
     height: 400px;
+    @media (max-width: 820px){
+     flex-direction: column;
+     margin-bottom: 56px;
+}
+  
 `;
 
 export const CurrentlyBox = styled.div`
@@ -15,6 +20,10 @@ export const CurrentlyBox = styled.div`
     padding:100px;
     color: #004356;
     font-size: 72px;
+    @media (max-width: 820px){
+      height: 30%;
+     
+}
 `;
 
 export const LearningItems = styled.div`
@@ -30,4 +39,7 @@ export const LearningItems = styled.div`
     & ul {
       list-style: none;
     }
+    @media (max-width: 820px){
+      margin-top: 0px;
+}
 `;
