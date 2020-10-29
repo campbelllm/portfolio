@@ -9,6 +9,12 @@ export const SectionOne = styled.div`
     display: flex;
     justify-content: space-evenly;
     background-color: #F2E8CF;
+    
+    @media (max-width: 1000px){
+      flex-direction: column;
+      width: 50%;
+      align-items: center:
+  } 
 `;
 
 export const SectionTwo = styled.div`
