@@ -35,8 +35,7 @@ export const Card = styled.div`
   width: 25%;
 
   @media (max-width: 1000px){
-     
-      width: 50%;
+     width: 50%;
   } 
 
   @media (max-width: 650px){

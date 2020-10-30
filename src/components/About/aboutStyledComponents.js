@@ -39,10 +39,9 @@ export const FamilyPic = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     @media (max-width: 950px){
-      background-image: url(${picture});
-    width: 90%;
-    background-repeat: no-repeat;
-    background-size: contain;
+     height: 230px;
+     width: auto;
+     margin-bottom: 50px;
     }
 
 `;
