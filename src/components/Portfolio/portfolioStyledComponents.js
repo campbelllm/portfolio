@@ -12,8 +12,8 @@ export const SectionOne = styled.div`
     
     @media (max-width: 1000px){
       flex-direction: column;
-      width: 50%;
-      align-items: center:
+      width: 100%;
+      align-items: center;
   } 
 `;
 
@@ -21,18 +21,34 @@ export const SectionTwo = styled.div`
      display: flex;
     justify-content: space-evenly;
     background-color: #F2E8CF;
+    @media (max-width: 1000px){
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+  } 
 `;
 
 export const Card = styled.div`
    border: 1px solid #9c6c6c;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   border-radius: 5px;
+  width: 25%;
+
+  @media (max-width: 1000px){
+     
+      width: 50%;
+  } 
+
+  @media (max-width: 650px){
+     
+     width: 80%;
+ } 
 `;
 
 export const CardImg = styled.div`
 
     & img {
-      width: 300px;
+      width: 100%;
       height: 300px;
       background-color: #F2E8CF;
     }
