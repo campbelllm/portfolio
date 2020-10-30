@@ -32,6 +32,9 @@ export const Logo = styled.div`
 `;
 
 export const Menu = styled.div`
+ @media (max-width: 770px){
+     display: none;
+ } 
   
 `;
 
@@ -48,4 +51,36 @@ export const StyledLink = styled(NavLink)`
   &.active {
     color: #805858;
   }
+`;
+
+
+
+export const Dropdown = styled.div`
+   position: relative;
+  display: none;
+  @media (max-width: 770px){
+     display: inline-block;
+ } 
+ 
+`;
+
+export const DropBtn = styled.div`
+    padding: 4px 12px;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    & :hover {
+      cursor: pointer;
+    }
+`;
+
+export const DropdownContent = styled.div`
+    display: none;
+    position: absolute;
+  
 `;
