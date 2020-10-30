@@ -26,7 +26,7 @@ const Navbar = () => {
     
     console.log(toggle);
   }
-  const toggleFunction =  toggle ? 'block' : 'none' ;
+  const toggleFunction =  toggle ? 'flex' : 'none' ;
 
   return (
     <Nav>
@@ -44,10 +44,10 @@ const Navbar = () => {
       <Dropdown>
         <DropBtn onClick = {() => handleClick()} ><FontAwesomeIcon icon={faBars} /></DropBtn>
         <DropdownContent style={{display: `${toggleFunction}` }} >
-          <StyledLink to="/">Home</StyledLink>
-          <StyledLink to="/about">About</StyledLink>
-          <StyledLink to="/contact">Contact</StyledLink>
-          <StyledLink to="/portfolio">Portfolio</StyledLink>
+          <StyledLink onClick = {() => handleClick()} to="/">Home</StyledLink>
+          <StyledLink onClick = {() => handleClick()}  to="/about">About</StyledLink>
+          <StyledLink onClick = {() => handleClick()}  to="/contact">Contact</StyledLink>
+          <StyledLink onClick = {() => handleClick()} to="/portfolio">Portfolio</StyledLink>
         </DropdownContent>
       </Dropdown>
     </Nav>

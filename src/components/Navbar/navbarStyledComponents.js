@@ -58,6 +58,7 @@ export const StyledLink = styled(NavLink)`
 export const Dropdown = styled.div`
    position: relative;
   display: none;
+  text-align: -webkit-right;
   @media (max-width: 770px){
      display: inline-block;
  } 
@@ -74,6 +75,7 @@ export const DropBtn = styled.div`
     border-radius: .25rem;
     color: rgba(0,0,0,.5);
     border-color: rgba(0,0,0,.1);
+    width: 50px;
     & :hover {
       cursor: pointer;
     }
@@ -81,6 +83,6 @@ export const DropBtn = styled.div`
 
 export const DropdownContent = styled.div`
     display: none;
-    position: absolute;
+    flex-direction: column;
   
 `;
