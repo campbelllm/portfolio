@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7651df70.chunk.css",
+    "main.js": "/portfolio/static/js/main.176e1494.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.176e1494.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
+    "static/js/2.f7219689.chunk.js": "/portfolio/static/js/2.f7219689.chunk.js",
+    "static/js/2.f7219689.chunk.js.map": "/portfolio/static/js/2.f7219689.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.7651df70.chunk.css.map": "/portfolio/static/css/main.7651df70.chunk.css.map",
+    "static/js/2.f7219689.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f7219689.chunk.js.LICENSE.txt",
+    "static/media/Welcome.bc6895e3.png": "/portfolio/static/media/Welcome.bc6895e3.png",
+    "static/media/dayPlanner.3b7e597c.png": "/portfolio/static/media/dayPlanner.3b7e597c.png",
+    "static/media/famPic.15ca867c.JPG": "/portfolio/static/media/famPic.15ca867c.JPG",
+    "static/media/nytSearch.246c7796.png": "/portfolio/static/media/nytSearch.246c7796.png",
+    "static/media/passwordGenerator.00254582.png": "/portfolio/static/media/passwordGenerator.00254582.png",
+    "static/media/project1.4d6a26f1.png": "/portfolio/static/media/project1.4d6a26f1.png",
+    "static/media/quizGame.9b33d39f.png": "/portfolio/static/media/quizGame.9b33d39f.png",
+    "static/media/weatherDashboard.e048c5a4.png": "/portfolio/static/media/weatherDashboard.e048c5a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9adcde90.js",
+    "static/js/2.f7219689.chunk.js",
+    "static/css/main.7651df70.chunk.css",
+    "static/js/main.176e1494.chunk.js"
+  ]
+}
