@@ -10,7 +10,7 @@ https://github.com/campbelllm/portfolio
 
 Link to gitHub pages site:
 
-https://campbelllm.github.io/week-2-homework/
+https://campbelllm.github.io/portfolio/
 
 Preview of site:
 
