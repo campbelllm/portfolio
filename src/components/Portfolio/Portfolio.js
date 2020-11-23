@@ -11,13 +11,21 @@ import actorSearchImg from "../../Images//project1.png";
 import weatherAppImg from "../../Images/weatherDashboard.png";
 import dayPlannerImg from "../../Images/dayPlanner.png" ;
 import quizGameImg from "../../Images/quizGame.png";
-import nytSearchImg from "../../Images/nytSearch.png";
 import passwordGeneratorImg from "../../Images/passwordGenerator.png" ;
+import issUse from "../../Images/issUse.png" ;
 
 const Portfolio = () => {
   return (
     <MainPortfolio>
       <SectionOne>
+      <Card>
+          <CardImg>
+          <img src={issUse} alt="issUse"/>
+          </CardImg>
+          <CardText>
+            <a href="https://iss-use.herokuapp.com/" target="_blank" rel="noreferrer noopener">issUse</a>
+          </CardText>
+        </Card>
         <Card>
           <CardImg>
           <img src={actorSearchImg} alt="Actor Search"/>
@@ -34,14 +42,6 @@ const Portfolio = () => {
           <a href="https://campbelllm.github.io/weatherApp/index.html" target="_blank" rel="noreferrer noopener">Weather App</a>
           </CardText>
         </Card>
-        <Card>
-          <CardImg>
-          <img src={dayPlannerImg} alt="Day Planner"/>
-          </CardImg>
-          <CardText>
-          <a href="https://campbelllm.github.io/dayPlanner/Develop/" target="_blank" rel="noreferrer noopener">Day Planner</a>
-          </CardText>
-        </Card>
       </SectionOne>
       <SectionTwo>
         <Card>
@@ -54,10 +54,10 @@ const Portfolio = () => {
         </Card>
         <Card>
           <CardImg>
-          <img src={nytSearchImg} alt="NYT Search"/>
+          <img src={dayPlannerImg} alt="Day Planner"/>
           </CardImg>
           <CardText>
-          <a href="https://campbelllm.github.io/NYT-search/NYTSearch/" target="_blank" rel="noreferrer noopener">NYT Search</a>
+          <a href="https://campbelllm.github.io/dayPlanner/Develop/" target="_blank" rel="noreferrer noopener">Day Planner</a>
           </CardText>
         </Card>
         <Card>
