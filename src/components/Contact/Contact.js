@@ -14,7 +14,6 @@ import {
 const Contact = () => {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data) => console.log(data);
-  console.log(errors);
   return (
     <ContactSection>
       <ContactForm>
