@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import React, { useState}   from "react";
 import {
   Logo,
   Nav,
@@ -32,7 +32,7 @@ const Navbar = () => {
     <Nav>
       <Logo>
         {" "}
-        <img src={logo} alt="logo" />
+       <a href="/"><img src={logo} alt="logo" /></a>
         <p>Lindsey Smith</p>
       </Logo>
       <Menu>
