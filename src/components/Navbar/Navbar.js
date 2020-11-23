@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import {useHistory} from 'react-router-dom';
+
 import {
   Logo,
   Nav,
@@ -7,6 +9,8 @@ import {
   Dropdown,
   DropBtn,
   DropdownContent,
+  Slider,
+  Switch
 } from "./navbarStyledComponents";
 // import "./navbar.css";
 import logo from "../../Images/logo.png";
@@ -15,12 +19,23 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-
+  const [switchState, setSwitchState] = useState(true);
+  const history = useHistory();
+  
   const handleClick = () => {
     if (toggle) {
       setToggle(false);
     } else {
       setToggle(true);
+    }
+  };
+  const handleChange= (event) => {
+    if (switchState) {
+      history.push('/dark');
+      setSwitchState(false);
+    } else {
+      setSwitchState(true);
+      history.push('/');
     }
   };
   const toggleFunction = toggle ? "flex" : "none";
@@ -34,6 +49,13 @@ const Navbar = () => {
         </a>
         <p>Lindsey Smith</p>
       </Logo>
+      <Switch className='switch' onChange={handleChange}>
+       
+       <input type="checkbox" />
+        <Slider className = "slider"></Slider>
+        
+      </Switch>
+      dark
       <Menu>
         <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/about">About</StyledLink>
