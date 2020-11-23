@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 
 
 export const Nav = styled.nav`
-    background-color: #F2E8CF;
-    color: #295151;
+    background-color: black;
+    color: white;
     border-width: thin;
     border-bottom-style: solid;
     border-bottom-color: #295151;
     position: fixed;
     width: 100%;
-    padding: 10px 20px;
+    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,7 @@ export const Nav = styled.nav`
 
 export const Logo = styled.div`
   display: flex;
+  filter: grayscale(100%);
 
   & img{
     width: 30px;
@@ -39,17 +40,17 @@ export const Menu = styled.div`
 `;
 
 export const StyledLink = styled(NavLink)`
-  color: #295151;
+  color: white;
   margin: 20px;
   text-decoration: none;
   font-size: 16px;
 
   &:hover {
-    color: #9c6c6c;
+    color: grey;
   }
 
   &.active {
-    color: #805858;
+    color: grey;
   }
 `;
 
@@ -73,8 +74,8 @@ export const DropBtn = styled.div`
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .25rem;
-    color: rgba(0,0,0,.5);
-    border-color: rgba(0,0,0,.1);
+    color: rgba(white);
+    border-color: rgba(white);
     width: 50px;
     & :hover {
       cursor: pointer;

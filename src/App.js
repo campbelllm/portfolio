@@ -19,6 +19,7 @@ function App() {
       <Route path='/about' component={About} />
       <Route path='/contact' component={Contact} />
       <Route path='/portfolio' component={Portfolio} />
+
       <Route exact path='/dark' component={HomeDark} />
       <Route path='/aboutdark' component={AboutDark} />
       <Route path='/contactdark' component={ContactDark} />
