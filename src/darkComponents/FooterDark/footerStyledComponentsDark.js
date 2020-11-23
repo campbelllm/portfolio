@@ -1,10 +1,12 @@
 import styled from "styled-components/macro";
 
 export const StyledFooter = styled.div`
-    background-color: #F2E8CF;
+    z-index:1;
+    background-color: #343A40;
+    color: white;
     width: 100%;
     border-style: solid;
-    border-color: #295151;
+    border-color: black;
     text-align: center;
     padding: 25px;
     position: absolute;
