@@ -36,8 +36,10 @@ export const LearningItems = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    & ul {
-      list-style: none;
+    flex-wrap: wrap;
+    & i {
+      font-size: 80px;
+    margin: 0 50px 0 50px;
     }
     @media (max-width: 820px){
       margin-top: 0px;
