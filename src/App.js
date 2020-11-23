@@ -6,6 +6,10 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
+import HomeDark from './darkComponents/HomeDark/HomeDark';
+import AboutDark from './darkComponents/AboutDark/AboutDark';
+import ContactDark from './darkComponents/ContactDark/ContactDark';
+import PortfolioDark from './darkComponents/PortfolioDark/PortfolioDark';
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
       <Route path='/about' component={About} />
       <Route path='/contact' component={Contact} />
       <Route path='/portfolio' component={Portfolio} />
+      <Route exact path='/dark' component={HomeDark} />
+      <Route path='/aboutdark' component={AboutDark} />
+      <Route path='/contactdark' component={ContactDark} />
+      <Route path='/portfoliodark' component={PortfolioDark} />
       <Footer />
     </Router>
   );

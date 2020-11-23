@@ -6,7 +6,7 @@ import {
   Card,
   CardImg,
   CardText,
-} from "./portfolioStyledComponents";
+} from "./portfolioStyledComponentsDark";
 import actorSearchImg from "../../Images//project1.png";
 import weatherAppImg from "../../Images/weatherDashboard.png";
 import dayPlannerImg from "../../Images/dayPlanner.png";

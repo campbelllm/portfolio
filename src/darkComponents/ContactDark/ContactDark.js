@@ -9,7 +9,7 @@ import {
   Email,
   Name,
   StyledButton,
-} from "./contactStyledComponents";
+} from "./contactStyledComponentsDark";
 
 const Contact = () => {
   const { register, handleSubmit, errors } = useForm();

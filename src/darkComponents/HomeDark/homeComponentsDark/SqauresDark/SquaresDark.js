@@ -3,7 +3,7 @@ import {
   SquareSection,
   SquareBody,
   StyledLink,
-} from "./squaresStyledComponents";
+} from "./squaresStyledComponentsDark";
 
 const Squares = () => {
   return (

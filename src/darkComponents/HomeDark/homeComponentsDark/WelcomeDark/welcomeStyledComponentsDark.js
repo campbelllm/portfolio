@@ -8,31 +8,38 @@ export const Jumbotron = styled.div`
 `;
 
 export const Hero = styled.div`
-  background: url('${welcomeImg}');
+  background: linear-gradient(45deg,#171614, #66717E, #212529 , #343A40,#495057, #6C757D);
+  background-size: 600% 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
   height: 600px;
   width: 100%;
+  @keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
 `;
 
 export const WelcomeText = styled.div`
     position: absolute;
     font-weight: bold;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Quicksand', sans-serif;
     animation-duration: 5s;
     animation-name: opacity;
     font-size: 200px;
     opacity: 0.7;
+    color: white;
 
    @keyframes opacity {
     0% {
       opacity: 0;
-      color: #F2E8CF;
+      color: black;
     }
 
     100% {
       opacity: 1;
-      color: black;
+      color: white;
     }
   }
 

@@ -7,7 +7,7 @@ import {
   Dropdown,
   DropBtn,
   DropdownContent,
-} from "./navbarStyledComponents";
+} from "./navbarStyledComponentsDark";
 // import "./navbar.css";
 import logo from "../../Images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

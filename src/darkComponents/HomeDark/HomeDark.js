@@ -1,7 +1,7 @@
 import React from "react";
-import Welcome from './homeComponents/Welcome/Welcome'
-import Squares from './homeComponents/Sqaures/Squares'
-import CurrentlyLearning from './homeComponents/CurrentlyLearning/CurrentlyLearning'
+import Welcome from './homeComponentsDark/WelcomeDark/WelcomeDark'
+import Squares from './homeComponentsDark/SqauresDark/SquaresDark'
+import CurrentlyLearning from './homeComponentsDark/CurrentlyLearningDark/CurrentlyLearningDark'
 const Home = () => {
   return (
     <>

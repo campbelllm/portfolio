@@ -3,7 +3,7 @@ import {
   CurrentlyLearningContainer,
   CurrentlyBox,
   LearningItems,
-} from "./currentlyLearningStyledComponents";
+} from "./currentlyLearningStyledComponentsDark";
 const CurrentlyLearning = () => {
   return (
     <CurrentlyLearningContainer>
