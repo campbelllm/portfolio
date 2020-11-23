@@ -33,7 +33,15 @@ export const Card = styled.div`
     margin-bottom: 50px;
   border-radius: 5px;
   width: 25%;
-
+  & a{
+    text-decoration: none;
+    font-size: 36px;
+    color: #F2E8CF;
+  }
+  & a:hover {
+    color: #295151;
+    text-decoration: none;
+   }
   @media (max-width: 1000px){
      width: 50%;
   } 
@@ -60,15 +68,4 @@ export const CardText = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #9c6c6c;
-
-  & a{
-    text-decoration: none;
-    font-size: 36px;
-    color: #F2E8CF;
-  }
-
-   & a:hover {
-    color: #295151;
-    text-decoration: none;
-   }
 `;

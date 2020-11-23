@@ -9,64 +9,88 @@ import {
 } from "./portfolioStyledComponents";
 import actorSearchImg from "../../Images//project1.png";
 import weatherAppImg from "../../Images/weatherDashboard.png";
-import dayPlannerImg from "../../Images/dayPlanner.png" ;
+import dayPlannerImg from "../../Images/dayPlanner.png";
 import quizGameImg from "../../Images/quizGame.png";
-import passwordGeneratorImg from "../../Images/passwordGenerator.png" ;
-import issUse from "../../Images/issUse.png" ;
+import passwordGeneratorImg from "../../Images/passwordGenerator.png";
+import issUse from "../../Images/issUse.png";
 
 const Portfolio = () => {
   return (
     <MainPortfolio>
       <SectionOne>
-      <Card>
-          <CardImg>
-          <img src={issUse} alt="issUse"/>
-          </CardImg>
-          <CardText>
-            <a href="https://iss-use.herokuapp.com/" target="_blank" rel="noreferrer noopener">issUse</a>
-          </CardText>
+        <Card>
+          <a
+            href="https://iss-use.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <CardImg>
+              <img src={issUse} alt="issUse" />
+            </CardImg>
+            <CardText>issUse</CardText>
+          </a>
         </Card>
         <Card>
-          <CardImg>
-          <img src={actorSearchImg} alt="Actor Search"/>
-          </CardImg>
-          <CardText>
-            <a href="https://sean-marten.github.io/project-1/" target="_blank" rel="noreferrer noopener">Actor Search</a>
-          </CardText>
+          <a
+            href="https://sean-marten.github.io/project-1/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <CardImg>
+              <img src={actorSearchImg} alt="Actor Search" />
+            </CardImg>
+            <CardText>Actor Search</CardText>
+          </a>
         </Card>
         <Card>
-          <CardImg>
-          <img src={weatherAppImg} alt="Weather App"/>
-          </CardImg>
-          <CardText>
-          <a href="https://campbelllm.github.io/weatherApp/index.html" target="_blank" rel="noreferrer noopener">Weather App</a>
-          </CardText>
+          <a
+            href="https://campbelllm.github.io/weatherApp/index.html"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <CardImg>
+              <img src={weatherAppImg} alt="Weather App" />
+            </CardImg>
+            <CardText>Weather App</CardText>
+          </a>
         </Card>
       </SectionOne>
       <SectionTwo>
         <Card>
-          <CardImg>
-          <img src={quizGameImg} alt="Quiz Game"/>
-          </CardImg>
-          <CardText>
-          <a href="https://campbelllm.github.io/quizGame/" target="_blank" rel="noreferrer noopener">Quiz Game</a>
-          </CardText>
+          <a
+            href="https://campbelllm.github.io/quizGame/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <CardImg>
+              <img src={quizGameImg} alt="Quiz Game" />
+            </CardImg>
+            <CardText>Quiz Game</CardText>
+          </a>
         </Card>
         <Card>
-          <CardImg>
-          <img src={dayPlannerImg} alt="Day Planner"/>
-          </CardImg>
-          <CardText>
-          <a href="https://campbelllm.github.io/dayPlanner/Develop/" target="_blank" rel="noreferrer noopener">Day Planner</a>
-          </CardText>
+          <a
+            href="https://campbelllm.github.io/dayPlanner/Develop/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <CardImg>
+              <img src={dayPlannerImg} alt="Day Planner" />
+            </CardImg>
+            <CardText>Day Planner</CardText>
+          </a>
         </Card>
         <Card>
-          <CardImg>
-          <img src={passwordGeneratorImg} alt="Password Generator"/>
-          </CardImg>
-          <CardText>
-          <a href="https://campbelllm.github.io/passwordGenerator/Develop/index.html" target="_blank" rel="noreferrer noopener">Password Gen.</a>
-          </CardText>
+          <a
+            href="https://campbelllm.github.io/passwordGenerator/Develop/index.html"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <CardImg>
+              <img src={passwordGeneratorImg} alt="Password Generator" />
+            </CardImg>
+            <CardText>Password Gen.</CardText>
+          </a>
         </Card>
       </SectionTwo>
     </MainPortfolio>
