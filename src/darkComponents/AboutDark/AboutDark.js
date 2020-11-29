@@ -7,7 +7,6 @@ import {
   AboutText,
   AboutMainComponent
 } from "./aboutStyledComponentsDark";
-import FamilyImg from '../../Images/famPic.JPG'
 import NavbarDark from '../../darkComponents/NavbarDark/NavbarDark'
 import FooterDark from '../../darkComponents/FooterDark/FooterDark'
 

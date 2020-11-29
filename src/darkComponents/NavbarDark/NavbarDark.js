@@ -8,19 +8,14 @@ import {
   Dropdown,
   DropBtn,
   DropdownContent,
-  Button,
-  Slider,
-  Switch,
 } from "./navbarStyledComponentsDark";
 // import "./navbar.css";
 import logo from "../../Images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import ToggleSwitch from './ToggleSwitch'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [switchState, setSwitchState] = useState(true);
   const history = useHistory();
   const handleClick = () => {
     if (toggle) {

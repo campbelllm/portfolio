@@ -10,8 +10,6 @@ import {
   DropBtn,
   DropdownContent,
   Button,
-  Slider,
-  Switch
 } from "./navbarStyledComponents";
 // import "./navbar.css";
 import logo from "../../Images/logo.png";
@@ -20,7 +18,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [switchState, setSwitchState] = useState(false);
   const history = useHistory();
 
   const handleClick = () => {

@@ -14,7 +14,7 @@ import NavbarDark from '../NavbarDark/NavbarDark';
 import FooterDark from '../FooterDark/FooterDark';
 
 const Contact = () => {
-  const { register, handleSubmit, errors } = useForm();
+  const { register, handleSubmit} = useForm();
   const onSubmit = (data) => console.log(data);
   return (
     <div>

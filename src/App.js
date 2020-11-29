@@ -10,8 +10,7 @@ import HomeDark from './darkComponents/HomeDark/HomeDark';
 import AboutDark from './darkComponents/AboutDark/AboutDark';
 import ContactDark from './darkComponents/ContactDark/ContactDark';
 import PortfolioDark from './darkComponents/PortfolioDark/PortfolioDark';
-import NavbarDark from './darkComponents/NavbarDark/NavbarDark';
-import FooterDark from './darkComponents/FooterDark/FooterDark'
+
 
 function App() {
   return (
