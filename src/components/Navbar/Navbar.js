@@ -19,9 +19,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [switchState, setSwitchState] = useState(true);
+  const [switchState, setSwitchState] = useState(false);
   const history = useHistory();
-  
+
   const handleClick = () => {
     if (toggle) {
       setToggle(false);
@@ -30,13 +30,7 @@ const Navbar = () => {
     }
   };
   const handleChange= (event) => {
-    if (switchState) {
-      history.push('/dark');
-      setSwitchState(false);
-    } else {
-      setSwitchState(true);
-      history.push('/');
-    }
+        history.push('/dark');
   };
   const toggleFunction = toggle ? "flex" : "none";
 
@@ -49,13 +43,14 @@ const Navbar = () => {
         </a>
         <p>Lindsey Smith</p>
       </Logo>
-      <Switch className='switch' onChange={handleChange}>
+      {/* <Switch className='switch' onClick={handleChange}>
        
        <input type="checkbox" />
         <Slider className = "slider"></Slider>
         
       </Switch>
-      dark
+      dark */}
+      <StyledLink to="/dark">Dark Mode</StyledLink>
       <Menu>
         <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/about">About</StyledLink>

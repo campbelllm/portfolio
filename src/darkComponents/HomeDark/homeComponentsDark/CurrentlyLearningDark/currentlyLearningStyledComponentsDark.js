@@ -19,7 +19,7 @@ export const CurrentlyBox = styled.div`
     background-color: black;
     padding:100px;
     color: white;
-    font-size: 72px;
+    font-size:50px;
     @media (max-width: 820px){
       height: 30%;
      
@@ -38,7 +38,7 @@ export const LearningItems = styled.div`
     align-items: center;
     flex-wrap: wrap;
     & i {
-      font-size: 80px;
+      font-size: 100px;
     margin: 0 50px 0 50px;
     }
     @media (max-width: 820px){

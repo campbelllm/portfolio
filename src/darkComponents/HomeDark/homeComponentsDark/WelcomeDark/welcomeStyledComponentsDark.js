@@ -27,7 +27,7 @@ export const WelcomeText = styled.div`
     font-family: 'Quicksand', sans-serif;
     animation-duration: 5s;
     animation-name: opacity;
-    font-size: 200px;
+    font-size: 150px;
     opacity: 0.7;
     color: white;
 

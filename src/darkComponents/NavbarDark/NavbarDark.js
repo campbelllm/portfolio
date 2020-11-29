@@ -29,14 +29,12 @@ const Navbar = () => {
     }
   };
   const handleChange= (event) => {
-    if (switchState) {
-      history.push('/dark');
-      setSwitchState(false);
-    } else {
-      setSwitchState(true);
-      history.push('/');
-    }
+    setTimeout(()=> {
+        // history.push('/');
+    }, 2000)
   };
+   
+  
 
   const toggleFunction = toggle ? "flex" : "none";
 
@@ -49,14 +47,17 @@ const Navbar = () => {
         </a>
         <p>Lindsey Smith</p>
       </Logo>
-      {/* <ToggleSwitch/> */}
-     <Switch className='switch' onChange={handleChange}>
+      {/* <ToggleSwitch onChange={handleChange}></ToggleSwitch> */}
+     {/* <Switch className='switch' onClick={handleChange}>
        
       <input type="checkbox" />
        <Slider className = "slider"></Slider>
        
      </Switch>
-     dark
+     dark */}
+     <StyledLink to='/'>
+       Light Mode
+     </StyledLink>
       <Menu>
         <StyledLink to="/dark">Home</StyledLink>
         <StyledLink to="/aboutdark">About</StyledLink>

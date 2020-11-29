@@ -3,7 +3,7 @@ import picture from '../../Images/famPic.JPG'
 
 
 export const AboutMainComponent = styled.div`
-    padding: 100px 0px;
+    padding: 160px 0px;
     display: flex;
     justify-content: center;
    

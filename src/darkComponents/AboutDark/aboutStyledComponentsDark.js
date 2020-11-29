@@ -3,18 +3,18 @@ import picture from '../../Images/famPic.JPG'
 
 
 export const AboutMainComponent = styled.div`
-    padding: 100px 0px;
+    padding: 160px 0px;
     display: flex;
     justify-content: center;
-   
+    background-color: #212529;
 `;
 
 export const AboutContainer = styled.div`
     width: 80%; 
-    background-color: #819C8B;
+    background-color: #343A40;
     padding: 40px;
     margin: 60px 0px;
-   
+   color: white;
 `;
 
 export const AboutHeader = styled.div`

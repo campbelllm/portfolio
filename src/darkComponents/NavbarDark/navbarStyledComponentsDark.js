@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export const Nav = styled.nav`
     background-color: black;
-    color: white;
+    color: grey;
     border-width: thin;
     border-bottom-style: solid;
     border-bottom-color: #295151;
@@ -40,17 +40,17 @@ export const Menu = styled.div`
 `;
 
 export const StyledLink = styled(NavLink)`
-  color: white;
+  color: grey;
   margin: 20px;
   text-decoration: none;
   font-size: 16px;
 
   &:hover {
-    color: grey;
+    color: white;
   }
 
   &.active {
-    color: grey;
+    color: white;
   }
 `;
 
@@ -74,8 +74,8 @@ export const DropBtn = styled.div`
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .25rem;
-    color: rgba(white);
-    border-color: rgba(white);
+    color: white;
+    border-color: white;
     width: 50px;
     & :hover {
       cursor: pointer;
@@ -98,7 +98,7 @@ export const Switch = styled.label`
   width: 0;
   height: 0;
 }
- & input:checked, &.slider {
+ & input, &.slider {
   background-color: #2196F3;
 }
 
@@ -106,10 +106,10 @@ export const Switch = styled.label`
   box-shadow: 0 0 1px #2196F3;
 }
 
-& input:checked, &.slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+& input, &.slider {
+  -webkit-transform: translateX(-26px);
+  -ms-transform: translateX(-26px);
+  transform: translateX(-26px);
 }
 `;
 
