@@ -10,11 +10,15 @@ import {
   Name,
   StyledButton,
 } from "./contactStyledComponentsDark";
+import NavbarDark from '../NavbarDark/NavbarDark';
+import FooterDark from '../FooterDark/FooterDark';
 
 const Contact = () => {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
+    <div>
+    <NavbarDark/>
     <ContactSection>
       <ContactForm>
         <h1>Contact Me</h1>
@@ -60,6 +64,8 @@ const Contact = () => {
         </form>
       </ContactForm>
     </ContactSection>
+    <FooterDark/>
+    </div>
   );
 };
 export default Contact;

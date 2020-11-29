@@ -4,22 +4,25 @@ export const ContactSection = styled.div`
   padding: 200px 0px;
   display: flex;
   justify-content: center;
+  background-color: #212529;
 `;
 
 export const ContactForm = styled.div`
-  background-color: #819c8b;
+  background-color: #343A40;
   width: 90%;
-  color: #f2e8cf;
+  color: white;
   padding: 50px;
   text-align: center;
 
+
   & input {
     border: none;
-    border-bottom: 2px solid #295151;
-    background-color: #819c8b;
+    border-bottom: 2px solid white;
+    background-color: #343A40;
     border-radius: 0;
     font-size: 20px;
     margin-bottom:10px;
+    color: white;
   }
 
 
@@ -81,22 +84,24 @@ export const Message = styled.div`
 
   & textarea {
     border: none;
-    border-bottom: 2px solid #295151;
-    background-color: #819c8b;
+    border-bottom: 2px solid white;
+    background-color: #343A40;
     border-radius: 0;
+    color: white;
   }
 `;
 
 export const StyledButton = styled.div`
-  background-color: #295151;
+  background-color: white;
   border: none;
   padding: 10px 10px;
   margin-top: 20px;
   width: 100px;
   border-radius: 4px;
   text-align: center;
-
+  color: black;
   &:hover {
-    background-color: #805858;
+    background-color: #212529;
+    color: white;
   }
 `;
