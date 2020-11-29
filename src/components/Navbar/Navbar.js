@@ -9,6 +9,7 @@ import {
   Dropdown,
   DropBtn,
   DropdownContent,
+  Button,
   Slider,
   Switch
 } from "./navbarStyledComponents";
@@ -50,7 +51,7 @@ const Navbar = () => {
         
       </Switch>
       dark */}
-      <StyledLink to="/dark">Dark Mode</StyledLink>
+      <Button onClick={handleChange}>Dark Mode</Button>
       <Menu>
         <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/about">About</StyledLink>

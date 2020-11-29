@@ -8,6 +8,7 @@ import {
   Dropdown,
   DropBtn,
   DropdownContent,
+  Button,
   Slider,
   Switch,
 } from "./navbarStyledComponentsDark";
@@ -29,9 +30,9 @@ const Navbar = () => {
     }
   };
   const handleChange= (event) => {
-    setTimeout(()=> {
-        // history.push('/');
-    }, 2000)
+  
+        history.push('/');
+   
   };
    
   
@@ -55,9 +56,9 @@ const Navbar = () => {
        
      </Switch>
      dark */}
-     <StyledLink to='/'>
+     <Button onClick={() => handleChange()}>
        Light Mode
-     </StyledLink>
+     </Button>
       <Menu>
         <StyledLink to="/dark">Home</StyledLink>
         <StyledLink to="/aboutdark">About</StyledLink>

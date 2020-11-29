@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     border-bottom-color: #295151;
     position: fixed;
     width: 100%;
-    padding: 10px 20px;
+    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +29,15 @@ export const Logo = styled.div`
     padding: 5px 10px;
     font-size: 20px;
   }
+`;
+export const Button = styled.button`
+      border: 1px solid #9c6c6c;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 15px;
+    background: #F2E8CF;
+    position: absolute;
+    left: 200px;
 `;
 
 export const Menu = styled.div`

@@ -32,6 +32,17 @@ export const Logo = styled.div`
   }
 `;
 
+export const Button = styled.button`
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 15px;
+    background: black;
+    position: absolute;
+    left: 200px;
+    color: white;
+`;
+
 export const Menu = styled.div`
  @media (max-width: 770px){
      display: none;
