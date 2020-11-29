@@ -7,7 +7,7 @@ export const Nav = styled.nav`
     color: grey;
     border-width: thin;
     border-bottom-style: solid;
-    border-bottom-color: #295151;
+    border-bottom-color: #343A40;
     position: fixed;
     width: 100%;
     padding: 20px 20px;

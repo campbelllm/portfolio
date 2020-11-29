@@ -2,13 +2,14 @@ import styled from 'styled-components/macro';
 
 export const MainPortfolio = styled.div`
   padding: 50px 0px;
+  background-color: #212529;
 `;
 
 export const SectionOne = styled.div`
    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
-    background-color: #F2E8CF;
+    background-color: #212529;
     
     @media (max-width: 1000px){
       flex-direction: column;
@@ -20,7 +21,7 @@ export const SectionOne = styled.div`
 export const SectionTwo = styled.div`
      display: flex;
     justify-content: space-evenly;
-    background-color: #F2E8CF;
+    background-color: #212529;
     @media (max-width: 1000px){
       flex-direction: column;
       width: 100%;
@@ -29,17 +30,17 @@ export const SectionTwo = styled.div`
 `;
 
 export const Card = styled.div`
-   border: 1px solid #9c6c6c;
+   border: 1px solid #343A40;
     margin-bottom: 50px;
   border-radius: 5px;
   width: 25%;
   & a{
     text-decoration: none;
     font-size: 36px;
-    color: #F2E8CF;
+    color: white;
   }
   & a:hover {
-    color: #295151;
+    color: black;
     text-decoration: none;
    }
   @media (max-width: 1000px){
@@ -57,7 +58,7 @@ export const CardImg = styled.div`
     & img {
       width: 100%;
       height: 300px;
-      background-color: #F2E8CF;
+      background-color: #343A40;
     }
   
 `;
@@ -67,5 +68,5 @@ export const CardText = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9c6c6c;
+    background-color: #343A40;
 `;
