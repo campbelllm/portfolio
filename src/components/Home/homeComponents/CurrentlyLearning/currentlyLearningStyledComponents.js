@@ -1,47 +1,54 @@
 import styled from "styled-components/macro";
 
 export const CurrentlyLearningContainer = styled.div`
-    display: flex;
-    background-color: #F2E8CF;
-    padding-bottom: 56px;
-    height: 400px;
-    @media (max-width: 820px){
-     flex-direction: column;
-     margin-bottom: 56px;
-}
-  
+  display: flex;
+  background-color: #f2e8cf;
+  padding-bottom: 56px;
+  height: 400px;
+  @media (max-width: 890px) {
+    flex-direction: column;
+    margin-bottom: 56px;
+  }
 `;
 
 export const CurrentlyBox = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #819C8B;
-    padding:100px;
-    color: #004356;
-    font-size: 72px;
-    @media (max-width: 820px){
-      height: 30%;
-     
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #819c8b;
+  padding: 100px;
+  color: #004356;
+  font-size: 50px;
+  @media (max-width: 890px) {
+    height: 30%;
+  }
 `;
 
 export const LearningItems = styled.div`
-    margin: 50px 0px;
-    width: 100%;
-    background-color: #004356;
-    color: #C6B886;
-    line-height: 2;
-    font-size: 25px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    & i {
-      font-size: 80px;
+  margin: 40px 0px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #004356;
+  color: #c6b886;
+  line-height: 2;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  & i {
+    font-size: 100px;
     margin: 0 50px 0 50px;
+    @media (max-width: 1425px) {
+      font-size: 75px;
+      margin: 0 40px;
     }
-    @media (max-width: 820px){
-      margin-top: 0px;
-}
+    @media (max-width: 1200px) {
+      font-size: 75px;
+      margin: 0 20px;
+    }
+  }
+  @media (max-width: 890px) {
+    margin-top: 0px;
+  }
 `;
