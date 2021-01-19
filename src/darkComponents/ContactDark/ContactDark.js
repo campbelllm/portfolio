@@ -20,7 +20,7 @@ const Contact = () => {
     <div>
     <NavbarDark/>
     <ContactSection>
-      <ContactForm>
+      <ContactForm data-netlify="true">
         <h1>Contact Me</h1>
         <p>
           I would love to hear from you! Send me feedback or ask me anything.
