@@ -100,6 +100,7 @@ export const StyledButton = styled.div`
   border-radius: 4px;
   text-align: center;
   color: black;
+  cursor: pointer;
   &:hover {
     background-color: #212529;
     color: white;

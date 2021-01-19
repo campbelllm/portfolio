@@ -12,16 +12,16 @@ import {
 } from "./contactStyledComponents";
 
 const Contact = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
     <ContactSection>
-      <ContactForm data-netlify="true">
+      <ContactForm>
         <h1>Contact Me</h1>
         <p>
           I would love to hear from you! Send me feedback or ask me anything.
         </p>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form onSubmit={handleSubmit(onSubmit)}  data-netlify="true">
           <NameAndEmail>
             <Name>
               <input
@@ -56,7 +56,7 @@ const Contact = () => {
             ></textarea>
             <label for="Message">Message</label>
           </Message>
-          <StyledButton type="submit">Submit</StyledButton>
+          <StyledButton type="submit" onClick={() => reset({ name: "", email: "", subject: "", message: "" }) }>Submit</StyledButton>
         </form>
       </ContactForm>
     </ContactSection>

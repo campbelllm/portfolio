@@ -14,18 +14,24 @@ import NavbarDark from '../NavbarDark/NavbarDark';
 import FooterDark from '../FooterDark/FooterDark';
 
 const Contact = () => {
-  const { register, handleSubmit} = useForm();
-  const onSubmit = (data) => console.log(data);
+  const { register, handleSubmit, reset} = useForm({
+    defaultValues: {
+      name: ""
+    },
+  });
+  const onSubmit = (data, e) => {
+    
+    console.log(data, e);}
   return (
     <div>
     <NavbarDark/>
     <ContactSection>
-      <ContactForm data-netlify="true">
+      <ContactForm>
         <h1>Contact Me</h1>
         <p>
           I would love to hear from you! Send me feedback or ask me anything.
         </p>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form onSubmit={handleSubmit(onSubmit)}  data-netlify="true">
           <NameAndEmail>
             <Name>
               <input
@@ -60,7 +66,7 @@ const Contact = () => {
             ></textarea>
             <label for="Message">Message</label>
           </Message>
-          <StyledButton type="submit">Submit</StyledButton>
+          <StyledButton type="submit" onClick={() => reset({ name: "", email: "", subject: "", message: "" }) }>Submit</StyledButton>
         </form>
       </ContactForm>
     </ContactSection>

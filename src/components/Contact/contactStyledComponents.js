@@ -95,7 +95,7 @@ export const StyledButton = styled.div`
   width: 100px;
   border-radius: 4px;
   text-align: center;
-
+  cursor: pointer;
   &:hover {
     background-color: #805858;
   }
