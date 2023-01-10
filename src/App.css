@@ -1,0 +1,15 @@
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+body{
+  background-color: #FFFFFB;
+}
+
+body, * {
+  margin: 0 40px;
+  box-sizing: border-box;
+}
+
+
+
