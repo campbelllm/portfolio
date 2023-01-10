@@ -10,7 +10,7 @@ const Header= () => {
     return(
         <HeaderSection>
             <Name>
-                <h1>LINDSEY</h1>
+                <h1>LINDSE</h1>
                 <h1>SMITH</h1>
             </Name>
             <Title>
