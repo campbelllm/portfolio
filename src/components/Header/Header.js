@@ -10,14 +10,14 @@ const Header= () => {
     return(
         <HeaderSection>
             <Name>
-                <h1>LINDSE</h1>
+                <h1>LINDSEY</h1>
                 <h1>SMITH</h1>
             </Name>
             <Title>
                 <h3>web developer</h3>
             </Title>
             <Contact>
-                <h3>contact</h3>
+                <a href="#">contact</a>
             </Contact>
         </HeaderSection>
     );
