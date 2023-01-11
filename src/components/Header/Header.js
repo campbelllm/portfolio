@@ -14,7 +14,7 @@ const Header= () => {
                 <h1>SMITH</h1>
             </Name>
             <Title>
-                <h3>web developer</h3>
+                <p>web developer</p>
             </Title>
             <Contact>
                 <a href="#">contact</a>

@@ -16,8 +16,7 @@ export const Name = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 20px;
-  color: black;
+  font-size: 18px;
   margin: 30px 0 ;
   text-align: left;
   width: 50%;
@@ -25,7 +24,7 @@ export const Title = styled.div`
 `;
 
 export const Contact = styled.div`
-    font-size: 23.4px;
+    font-size: 18px;
     margin: 30px 0 ;
     text-align: right;
     width: 50%;
