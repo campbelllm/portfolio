@@ -2,6 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import {
   ContactSection,
+  Title,
+  HelloNote,
   ContactForm,
   NameAndEmail,
   Subject,
@@ -17,28 +19,35 @@ const Contact = () => {
   return (
     <ContactSection>
       <ContactForm>
-        <h1>CONTACT</h1>
-        <h1>ME</h1>
-        <p>
-          I would love to hear from you! Send me feedback or ask me anything.
-        </p>
-        <form onSubmit={handleSubmit(onSubmit)}  data-netlify="true">
+        <Title>
+          <h1>CONTACT</h1>
+          <h1>ME</h1>
+        </Title>
+        <HelloNote>
+          <p>
+            Can't wait to get your message!
+          </p>
+        </HelloNote>
+
+        <form onSubmit={handleSubmit(onSubmit)} data-netlify="true">
           <NameAndEmail>
             <Name>
+              <label for="name">Name:</label>
               <input
                 type="text"
                 name="name"
+                placeholder="who are you?"
                 ref={register({ required: true, maxLength: 200 })}
               />
-              <label for="name">who are you?</label>
             </Name>
             <Email>
+              <label for="email">what email can I reach you at?</label>
               <input
                 type="text"
                 name="email"
+                placeholder="email"
                 ref={register({ required: true, pattern: /^\S+@\S+$/i })}
               />
-              <label for="email">what email can I reach you at?</label>
             </Email>
           </NameAndEmail>
           <Subject>
@@ -57,7 +66,14 @@ const Contact = () => {
             ></textarea>
             <label for="Message">tell me more</label>
           </Message>
-          <StyledButton type="submit" onClick={() => reset({ name: "", email: "", subject: "", message: "" }) }>Submit</StyledButton>
+          <StyledButton
+            type="submit"
+            onClick={() =>
+              reset({ name: "", email: "", subject: "", message: "" })
+            }
+          >
+            ready... set... SEND
+          </StyledButton>
         </form>
       </ContactForm>
     </ContactSection>
