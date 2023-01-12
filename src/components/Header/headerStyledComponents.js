@@ -5,7 +5,7 @@ export const HeaderSection = styled.div`
   display: flex;
   flex-direction: row ;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 ;
 `;
 
 export const Name = styled.div`
@@ -40,6 +40,7 @@ export const Contact = styled.div`
         background-repeat: no-repeat;
         background-position: center bottom;
         transition: all .2s ease-out;
+        margin: 0;
     }
     & a:hover{
         background-size: 100% 1px, auto;

@@ -26,6 +26,21 @@ export const ProjectOne = styled.div`
   width: 90%;
   height: 500px;
   margin: 20px;
+  
+
+  & a {
+    color: black;
+    text-decoration: none;
+  }
+
+  & a:hover {
+   color: pink;
+  }
+
+  & div {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const ProjectTwo = styled.div`

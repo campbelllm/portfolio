@@ -13,7 +13,13 @@ const Projects = () => {
   return (
     <AllProjects>
     <ProjectSection1>
-      <ProjectOne />
+      <ProjectOne>
+        <a href="#">
+            <div>
+                Hello
+            </div>
+        </a>
+      </ProjectOne>
       <ProjectTwo/>
     </ProjectSection1>
     <ProjectSection2>
