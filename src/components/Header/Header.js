@@ -17,7 +17,7 @@ const Header= () => {
                 <p>web developer</p>
             </Title>
             <Contact>
-                <a href="#">contact</a>
+                <a href="/contact">contact</a>
             </Contact>
         </HeaderSection>
     );

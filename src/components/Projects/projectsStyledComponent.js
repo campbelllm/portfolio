@@ -4,6 +4,7 @@ export const AllProjects = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin: 0;
 `;
 
 export const ProjectSection1 = styled.div`
@@ -26,21 +27,26 @@ export const ProjectOne = styled.div`
   width: 90%;
   height: 500px;
   margin: 20px;
-  
+  display: flex;
 
   & a {
-    color: black;
+    display: flex;
+    color: transparent;
+    font-size: 60px;
     text-decoration: none;
-  }
-
-  & a:hover {
-   color: pink;
-  }
-
-  & div {
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
     width: 100%;
     height: 100%;
   }
+
+  & a:hover {
+    color: #d3c4be;
+    background: #fff;
+    opacity: 0.5;
+  }
+
 `;
 
 export const ProjectTwo = styled.div`

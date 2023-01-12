@@ -40,7 +40,6 @@ export const Contact = styled.div`
         background-repeat: no-repeat;
         background-position: center bottom;
         transition: all .2s ease-out;
-        margin: 0;
     }
     & a:hover{
         background-size: 100% 1px, auto;

@@ -7,4 +7,6 @@ export const StyledFooter = styled.div`
   padding: 20px 0px;
   margin-top: 20px;
   width: 100%;
+  margin: 0;
 `;
+
