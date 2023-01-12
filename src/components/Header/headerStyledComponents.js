@@ -34,43 +34,15 @@ export const Contact = styled.div`
     & a {
         color: black; 
         text-decoration: none;
-        padding: 10px 20px ;
+        padding: 5px 20px ;
+        background-image: linear-gradient(black, black);
+        background-size: 0 1px, auto;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        transition: all .2s ease-out;
     }
-    & a:before{
-        position: absolute;
-        content: "";
-        height: 0;
-        width: 0;
-        border: 1px solid transparent;
-        box-sizing: border-box;
-       
-    }
-    & a:hover:before{
-        color: black;
-        text-decoration: none; 
-        border: 1px solid black;
-        transition: height 0.5s linear,
-                    width 0.5s linear 0.5s;
-        border-right: none;
-        border-bottom: none;
-    }
-    & a:after{
-        position: absolute;
-        content: "";
-        height: 0;
-        width: 0;
-        border: 1px solid transparent;
-        box-sizing: border-box;
-       
-    }
-    & a:hover:after{
-        color: black;
-        text-decoration: none; 
-        border: 1px solid black;
-        transition: height 0.5s linear,
-                    width 0.5s linear 0.5s;
-        border-left: none;
-        border-top: none;
+    & a:hover{
+        background-size: 80% 1px, auto;
     }
 
 `
