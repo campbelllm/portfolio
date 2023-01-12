@@ -4,6 +4,7 @@ import {
   ContactSection,
   Title,
   HelloNote,
+  ContactHead,
   ContactForm,
   NameAndEmail,
   Subject,
@@ -18,21 +19,20 @@ const Contact = () => {
   const onSubmit = (data) => console.log(data);
   return (
     <ContactSection>
-      <ContactForm>
+      <ContactHead>
         <Title>
           <h1>CONTACT</h1>
           <h1>ME</h1>
         </Title>
         <HelloNote>
-          <p>
-            Can't wait to get your message!
-          </p>
+          <p>hello, I'm excited to connect with you!</p>
         </HelloNote>
-
+        </ContactHead>
+        <ContactForm>
         <form onSubmit={handleSubmit(onSubmit)} data-netlify="true">
           <NameAndEmail>
             <Name>
-              <label for="name">Name:</label>
+              <label for="name">name:</label>
               <input
                 type="text"
                 name="name"
@@ -41,30 +41,32 @@ const Contact = () => {
               />
             </Name>
             <Email>
-              <label for="email">what email can I reach you at?</label>
+              <label for="email">email:</label>
               <input
                 type="text"
                 name="email"
-                placeholder="email"
+                placeholder="where can I reach you?"
                 ref={register({ required: true, pattern: /^\S+@\S+$/i })}
               />
             </Email>
           </NameAndEmail>
           <Subject>
+            <label for="subject">subject:</label>
             <input
               type="text"
               name="subject"
+              placeholder="what are we chatting about?"
               ref={register({ required: true, maxLength: 200 })}
             />
-            <label for="subject">what are we chatting about?</label>
           </Subject>
           <Message>
+            <label for="Message">message:</label>
             <textarea
               type="text"
               name="message"
-              ref={register({ required: true, maxLength: 1000 })}
+              placeholder="tell me more..."
+              ref={register({ required: true, maxLength: 5000})}
             ></textarea>
-            <label for="Message">tell me more</label>
           </Message>
           <StyledButton
             type="submit"
@@ -72,7 +74,8 @@ const Contact = () => {
               reset({ name: "", email: "", subject: "", message: "" })
             }
           >
-            ready... set... SEND
+            
+           SEND  <i class="fa fa-send-o"></i>
           </StyledButton>
         </form>
       </ContactForm>

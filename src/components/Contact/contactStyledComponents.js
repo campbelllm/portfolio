@@ -8,50 +8,52 @@ export const ContactSection = styled.div`
   padding: 20px 80px 0 80px;
 `;
 
-export const ContactForm = styled.div` 
-padding-top: 40px;
+export const ContactHead = styled.div`
+  padding-top: 40px;
   color: black;
   margin: 0;
   width: 100%;
+  font-size: 18px;
+`;
+
+export const ContactForm = styled.div`
+  padding-top: 40px;
+  color: black;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
 
   & input {
     border: none;
-    border-bottom: 1px solid #295151;
-    font-size: 20px;
-    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0 3px 0;
   }
 
   & label {
     float: left;
-  }
-/* 
-  & p {
-    margin: 20px 0;
-  }
-  @media (max-width: 950px) {
-    p {
-      padding: 20px 0;
-    } */
+    margin: 0;
   }
 `;
 
 export const Title = styled.div`
-    margin: 20px 0;
-    width: 100%;
-& h1 {
+  margin: 20px 0;
+  width: 100%;
+  & h1 {
     font-size: 60px;
     color: black;
   }
-`
-export const HelloNote= styled.div`
-    margin: 30px 0;
-    width: 100%;
-& p {
-    font-size: 18px;
+`;
+export const HelloNote = styled.div`
+  margin: 30px 0;
+  width: 100%;
+  & p {
     text-align: left;
     font-weight: bold;
   }
-`
+`;
 
 export const NameAndEmail = styled.div`
   display: flex;
@@ -61,7 +63,7 @@ export const NameAndEmail = styled.div`
 
 export const Name = styled.div`
   width: 50%;
-  margin: 0;
+  margin: 0 5px 0 0;
 
   @media (max-width: 950px) {
     width: 100%;
@@ -71,7 +73,7 @@ export const Name = styled.div`
 
 export const Email = styled.div`
   width: 50%;
-  margin: 0;
+  margin: 0 0 0 5px;
 
   @media (max-width: 950px) {
     width: 100%;
@@ -79,33 +81,45 @@ export const Email = styled.div`
 `;
 
 export const Subject = styled.div`
-  display: inline-grid;
   width: 100%;
-  margin: 30px 0;
+  margin: 50px 0;
 `;
 
 export const Message = styled.div`
-  display: inline-grid;
   width: 100%;
-  height: 100px;
-  margin: 30px 0;
+  margin: 50px 0;
 
   & textarea {
     border: none;
-    border-bottom: 1px solid #295151;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0 3px 0;
+    height: 150px;
   }
 `;
 
 export const StyledButton = styled.div`
-  border: none;
-  padding: 10px 10px;
-  margin-top: 20px;
-  width: 300px;
-  border-radius: 4px;
-  text-align: center;
   cursor: pointer;
+  color: black;
+  font-size: 22px;
+  float: right;
+  margin: 0;
+  text-decoration: none;
+  background-image: linear-gradient(black, black);
+  background-size: 0 1px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all 0.2s ease-out;
 
   &:hover {
-    background-color: #805858;
+    background-size: 100% 1px, auto;
+  }
+  & .fa {
+    margin: 0;
+  }
+  & .fa:hover {
+    font-size: 25px;
   }
 `;
