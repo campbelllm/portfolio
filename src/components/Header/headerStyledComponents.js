@@ -5,6 +5,7 @@ export const HeaderSection = styled.div`
   display: flex;
   flex-direction: row ;
   flex-wrap: wrap;
+  margin: 0;
 `;
 
 export const Name = styled.div`
@@ -34,7 +35,6 @@ export const Contact = styled.div`
     & a {
         color: black; 
         text-decoration: none;
-        padding: 5px 20px ;
         background-image: linear-gradient(black, black);
         background-size: 0 1px, auto;
         background-repeat: no-repeat;
@@ -42,7 +42,7 @@ export const Contact = styled.div`
         transition: all .2s ease-out;
     }
     & a:hover{
-        background-size: 80% 1px, auto;
+        background-size: 100% 1px, auto;
     }
 
 `

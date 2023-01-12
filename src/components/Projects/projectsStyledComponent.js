@@ -43,7 +43,7 @@ export const ProjectThree = styled.div`
 `;
 export const ProjectFour = styled.div`
   background-color: #d3c4be;
-  width: 60%;
+  width: 70%;
   height: 400px;
   margin: 0 40px;
   float: right;
