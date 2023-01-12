@@ -29,7 +29,7 @@ const Contact = () => {
         </HelloNote>
         </ContactHead>
         <ContactForm>
-        <form onSubmit={handleSubmit(onSubmit)} data-netlify="true">
+        <form onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
           <NameAndEmail>
             <Name>
               <label for="name">name:</label>
