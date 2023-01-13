@@ -22,7 +22,7 @@ export const ProjectSection2 = styled.div`
   margin: 0;
 `;
 
-export const ProjectOne = styled.div`
+export const Project = styled.div`
   background-color: #d3c4be;
   width: 90%;
   height: 500px;

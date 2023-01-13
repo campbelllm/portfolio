@@ -3,30 +3,27 @@ import {
   AllProjects,
   ProjectSection1,
   ProjectSection2,
-  ProjectOne,
-  ProjectTwo,
-  ProjectThree,
-  ProjectFour,
+  Project,
 } from "./projectsStyledComponent";
 
 const Projects = () => {
   return (
     <AllProjects>
       <ProjectSection1>
-        <ProjectOne>
+        <Project>
           <a href="#">Project 1</a>
-        </ProjectOne>
-        <ProjectOne>
+        </Project>
+        <Project>
           <a href="#">Project 3</a>
-        </ProjectOne>
+        </Project>
       </ProjectSection1>
       <ProjectSection2>
-      <ProjectOne>
+      <Project>
           <a href="#">Project 2</a>
-        </ProjectOne>
-        <ProjectOne>
+        </Project>
+        <Project>
           <a href="#">Project 4</a>
-        </ProjectOne>
+        </Project>
       </ProjectSection2>
     </AllProjects>
   );
