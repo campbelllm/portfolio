@@ -29,7 +29,7 @@ const Contact = () => {
         </HelloNote>
         </ContactHead>
         <ContactForm>
-        <form netlify contact="campbelllm@gmail.com">
+        <form name="contact" netlify contact="campbelllm@gmail.com">
           <NameAndEmail>
             <Name>
               <label for="name">name:</label>
