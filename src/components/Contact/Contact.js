@@ -32,7 +32,7 @@ const Contact = () => {
         </HelloNote>
       </ContactHead>
       <ContactForm>
-        <form netlify name="contact" method="POST" data-netlify="true">
+        <form  name="contact" netlify>
         <input type="hidden" name="form-name" value="contactForm" />
           <NameAndEmail>
             <Name>
@@ -47,7 +47,7 @@ const Contact = () => {
             <Email>
               <label type="email">email:</label>
               <input
-                type="text"
+                type="email"
                 name="email"
                 placeholder="where can I reach you?"
                 ref={register({ required: true, pattern: /^\S+@\S+$/i })}
