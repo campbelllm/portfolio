@@ -42,7 +42,7 @@ export const Title = styled.div`
   margin: 20px 0;
   width: 100%;
   & h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: black;
   }
 `;
