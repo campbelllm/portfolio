@@ -32,8 +32,8 @@ const Contact = () => {
         </HelloNote>
       </ContactHead>
       <ContactForm>
-        <form  name="contact" netlify>
-        <input type="hidden" name="form-name" value="contactForm" />
+        <form  name="contact" method="post" netlify >
+        <input type="hidden" name="form-name" value="contact" />
           <NameAndEmail>
             <Name>
               <label type="name">name:</label>
