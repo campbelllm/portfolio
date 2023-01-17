@@ -33,6 +33,7 @@ const Contact = () => {
       </ContactHead>
       <ContactForm>
         <form netlify name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contactForm" />
           <NameAndEmail>
             <Name>
               <label type="name">name:</label>
@@ -74,9 +75,6 @@ const Contact = () => {
           <StyledButton
             type="submit"
             name="submit"
-        //     onClick={() =>
-        //       reset({ name: "", email: "", subject: "", message: "" })
-        //     }
           >
             SEND <i class="fa fa-send-o"></i>
           </StyledButton>
