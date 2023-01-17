@@ -77,7 +77,7 @@ const Contact = () => {
         //     onClick={() =>
         //       reset({ name: "", email: "", subject: "", message: "" })
         //     }
-          
+          >
             SEND <i class="fa fa-send-o"></i>
           </StyledButton>
         </form>
