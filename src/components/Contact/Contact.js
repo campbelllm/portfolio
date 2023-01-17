@@ -71,12 +71,7 @@ const Contact = () => {
             ></textarea>
           </Message>
           <StyledButton>
-          
-            <input
-              type="submit"
-              name="submit"
-              value="SEND"
-            />
+            <input type="submit" name="submit" value="SEND" />
           </StyledButton>
         </form>
       </ContactForm>

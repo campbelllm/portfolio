@@ -103,7 +103,7 @@ export const Subject = styled.div`
 
 export const Message = styled.div`
   width: 100%;
-  margin: 50px 0;
+  margin: 50px 0 10px 0;
 
   & textarea {
     border: none;
@@ -117,25 +117,25 @@ export const Message = styled.div`
 `;
 
 export const StyledButton = styled.div`
-  cursor: pointer;
-  color: black;
-  font-size: 22px;
+  
   float: right;
   margin: 0;
   text-decoration: none;
-  background-image: linear-gradient(black, black);
-  background-size: 0 1px, auto;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  transition: all 0.2s ease-out;
-
-  &:hover {
-    background-size: 100% 1px, auto;
-  }
-  & .fa {
+  & input {
     margin: 0;
+    color: black;
+  font-size: 18px;
+    background: none;
+    border-bottom: none;
+    text-decoration: none;
+    background-image: linear-gradient(black, black);
+    background-size: 0 1px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all 0.2s ease-out;
   }
-  & .fa:hover {
-    font-size: 25px;
+  & input:hover {
+    cursor: pointer;
+    background-size: 100% 1px, auto;
   }
 `;
