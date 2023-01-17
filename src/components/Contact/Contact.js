@@ -17,6 +17,7 @@ import {
 
 const Contact = () => {
   return (
+    
     // <ContactSection>
     //   <ContactHead>
     //     <Title>
@@ -29,7 +30,7 @@ const Contact = () => {
     //     </HelloNote>
     //   </ContactHead>
     //   <ContactForm>
-        {/* <form  name="contact" method="post"  >
+        /* <form  name="contact" method="post"  >
         <input type="hidden" name="form-name" value="contact"/>
           <NameAndEmail>
             <Name>
@@ -79,9 +80,9 @@ const Contact = () => {
           >
             SEND <i class="fa fa-send-o"></i>
           </StyledButton>
-        </form> */}
-      {/* </ContactForm>
-    </ContactSection> */}
+        </form> */
+      /* </ContactForm>
+    </ContactSection> */
         <form  name="contact" method="post"  >
         <input type="hidden" name="form-name" value="contact"/>
           
@@ -127,9 +128,11 @@ const Contact = () => {
             name="submit"
             value="send"
           />
-            SEND <i class="fa fa-send-o"></i>
+            
         
         </form>
+ 
   );
 };
+
 export default Contact;
