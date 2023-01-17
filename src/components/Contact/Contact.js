@@ -13,11 +13,8 @@ import {
   StyledButton,
 } from "./contactStyledComponents";
 
-
-
 const Contact = () => {
   return (
-    
     <ContactSection>
       <ContactHead>
         <Title>
@@ -30,8 +27,8 @@ const Contact = () => {
         </HelloNote>
       </ContactHead>
       <ContactForm>
-        <form  name="contact" method="post"  >
-        <input type="hidden" name="form-name" value="contact"/>
+        <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
           <NameAndEmail>
             <Name>
               <label type="name">name:</label>
@@ -39,7 +36,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="who are you?"
-                maxLength= "200" 
+                maxLength="200"
                 required
               />
             </Name>
@@ -49,7 +46,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="where can I reach you?"
-                pattern= '/^\S+@\S+$/i' 
+                pattern="/^\S+@\S+$/i"
                 required
               />
             </Email>
@@ -60,7 +57,7 @@ const Contact = () => {
               type="text"
               name="subject"
               placeholder="what are we chatting about?"
-              maxLength= "200"
+              maxLength="200"
               required
             />
           </Subject>
@@ -70,67 +67,62 @@ const Contact = () => {
               type="text"
               name="message"
               placeholder="tell me more..."
-              maxLength= "5000"
+              maxLength="5000"
               required
             ></textarea>
           </Message>
-          <StyledButton
-          >
-           <input type="submit"
-            name="submit"
-           >SEND <i class="fa fa-send-o"></i></input>
+          <StyledButton>
+            <input type="submit" name="submit">
+              SEND <i class="fa fa-send-o"></i>
+            </input>
           </StyledButton>
-        </form> 
-       </ContactForm>
+        </form>
+      </ContactForm>
     </ContactSection>
-        // <form  name="contact" method="post"  >
-        // <input type="hidden" name="form-name" value="contact"/>
-          
-        //       <label type="name">name:</label>
-        //       <input
-        //         type="text"
-        //         name="name"
-        //         placeholder="who are you?"
-        //         maxLength= "200" 
-        //         required
-        //       />
-           
-          
-        //       <label type="email">email:</label>
-        //       <input
-        //         type="email"
-        //         name="email"
-        //         placeholder="where can I reach you?"
-        //         required
-        //       />
-          
-         
-        //     <label type="subject">subject:</label>
-        //     <input
-        //       type="text"
-        //       name="subject"
-        //       placeholder="what are we chatting about?"
-        //       maxLength= "200"
-        //       required
-        //     />
-         
-        //     <label type="Message">message:</label>
-        //     <textarea
-        //       type="text"
-        //       name="message"
-        //       placeholder="tell me more..."
-        //       maxLength= "5000"
-        //       required
-        //     ></textarea>
-        
-        //     <input type="submit"
-        //     name="submit"
-        //     value="send"
-        //   />
-            
-        
-        // </form>
- 
+    // <form  name="contact" method="post"  >
+    // <input type="hidden" name="form-name" value="contact"/>
+
+    //       <label type="name">name:</label>
+    //       <input
+    //         type="text"
+    //         name="name"
+    //         placeholder="who are you?"
+    //         maxLength= "200"
+    //         required
+    //       />
+
+    //       <label type="email">email:</label>
+    //       <input
+    //         type="email"
+    //         name="email"
+    //         placeholder="where can I reach you?"
+    //         required
+    //       />
+
+    //     <label type="subject">subject:</label>
+    //     <input
+    //       type="text"
+    //       name="subject"
+    //       placeholder="what are we chatting about?"
+    //       maxLength= "200"
+    //       required
+    //     />
+
+    //     <label type="Message">message:</label>
+    //     <textarea
+    //       type="text"
+    //       name="message"
+    //       placeholder="tell me more..."
+    //       maxLength= "5000"
+    //       required
+    //     ></textarea>
+
+    //     <input type="submit"
+    //     name="submit"
+    //     value="send"
+    //   />
+
+    // </form>
   );
 };
 
