@@ -47,11 +47,27 @@ export const Title = styled.div`
   }
 `;
 export const HelloNote = styled.div`
+  display: flex;
+  justify-content: space-between;
   margin: 30px 0;
   width: 100%;
+
   & p {
     text-align: left;
     font-weight: bold;
+  }
+  & a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    background-image: linear-gradient(black, black);
+    background-size: 0 1px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all 0.2s ease-out;
+  }
+  & a:hover {
+    background-size: 100% 1px, auto;
   }
 `;
 

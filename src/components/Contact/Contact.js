@@ -26,6 +26,7 @@ const Contact = () => {
         </Title>
         <HelloNote>
           <p>hello, I'm excited to connect with you!</p>
+          <a href="/">return home</a>
         </HelloNote>
         </ContactHead>
         <ContactForm>
