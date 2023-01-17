@@ -35,7 +35,7 @@ const Contact = () => {
         <form netlify name="contact" method="POST" data-netlify="true">
           <NameAndEmail>
             <Name>
-              <label for="name">name:</label>
+              <label type="name">name:</label>
               <input
                 type="text"
                 name="name"
@@ -44,7 +44,7 @@ const Contact = () => {
               />
             </Name>
             <Email>
-              <label for="email">email:</label>
+              <label type="email">email:</label>
               <input
                 type="text"
                 name="email"
@@ -54,7 +54,7 @@ const Contact = () => {
             </Email>
           </NameAndEmail>
           <Subject>
-            <label for="subject">subject:</label>
+            <label type="subject">subject:</label>
             <input
               type="text"
               name="subject"
@@ -63,7 +63,7 @@ const Contact = () => {
             />
           </Subject>
           <Message>
-            <label for="Message">message:</label>
+            <label type="Message">message:</label>
             <textarea
               type="text"
               name="message"
