@@ -39,7 +39,7 @@ export const ContactForm = styled.div`
 `;
 
 export const Title = styled.div`
-  margin: 20px 0;
+  margin: 0;
   width: 100%;
   & h1 {
     font-size: 40px;

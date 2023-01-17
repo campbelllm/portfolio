@@ -10,7 +10,7 @@ export const HeaderSection = styled.div`
 
 export const Name = styled.div`
   color: black;
-  margin: 20px 0;
+  margin:  0;
   width: 100%;
   & h1 {
     font-size: 40px;

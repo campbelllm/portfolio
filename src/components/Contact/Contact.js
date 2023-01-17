@@ -14,9 +14,11 @@ import {
   StyledButton,
 } from "./contactStyledComponents";
 
+
+
 const Contact = () => {
-  const { register, handleSubmit, reset } = useForm();
-  const onSubmit = (data) => console.log(data);
+ const { register, handleSubmit, reset } = useForm();
+  const submitForm = (data) => console.log(data);
   return (
     <ContactSection>
       <ContactHead>
@@ -28,9 +30,9 @@ const Contact = () => {
           <p>hello, I'm excited to connect with you!</p>
           <a href="/">return home</a>
         </HelloNote>
-        </ContactHead>
-        <ContactForm>
-        <form name="contact" netlify >
+      </ContactHead>
+      <ContactForm>
+        <form name="contact" method="POST" data-netlify="true">
           <NameAndEmail>
             <Name>
               <label for="name">name:</label>
@@ -66,17 +68,17 @@ const Contact = () => {
               type="text"
               name="message"
               placeholder="tell me more..."
-              ref={register({ required: true, maxLength: 5000})}
+              ref={register({ required: true, maxLength: 5000 })}
             ></textarea>
           </Message>
           <StyledButton
             type="submit"
-            onClick={() =>
-              reset({ name: "", email: "", subject: "", message: "" })
-            }
-          >
-            
-           SEND  <i class="fa fa-send-o"></i>
+            name="submit"
+        //     onClick={() =>
+        //       reset({ name: "", email: "", subject: "", message: "" })
+        //     }
+          
+            SEND <i class="fa fa-send-o"></i>
           </StyledButton>
         </form>
       </ContactForm>
