@@ -101,7 +101,6 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="where can I reach you?"
-                pattern= '/^\S+@\S+$/i' 
                 required
               />
           
