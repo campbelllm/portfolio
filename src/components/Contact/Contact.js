@@ -1,5 +1,4 @@
 import React from "react";
-import { useForm } from "react-hook-form";
 import {
   ContactSection,
   Title,
@@ -17,8 +16,6 @@ import {
 
 
 const Contact = () => {
- const { register, handleSubmit, reset } = useForm();
-  const submitForm = (data) => console.log(data);
   return (
     <ContactSection>
       <ContactHead>
@@ -41,7 +38,8 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="who are you?"
-                ref={register({ required: true, maxLength: 200 })}
+                maxLength= "200" 
+                required
               />
             </Name>
             <Email>
@@ -50,7 +48,8 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="where can I reach you?"
-                ref={register({ required: true, pattern: /^\S+@\S+$/i })}
+                pattern= '/^\S+@\S+$/i' 
+                required
               />
             </Email>
           </NameAndEmail>
@@ -60,7 +59,8 @@ const Contact = () => {
               type="text"
               name="subject"
               placeholder="what are we chatting about?"
-              ref={register({ required: true, maxLength: 200 })}
+              maxLength= "200"
+              required
             />
           </Subject>
           <Message>
@@ -69,7 +69,8 @@ const Contact = () => {
               type="text"
               name="message"
               placeholder="tell me more..."
-              ref={register({ required: true, maxLength: 5000 })}
+              maxLength= "5000"
+              required
             ></textarea>
           </Message>
           <StyledButton
