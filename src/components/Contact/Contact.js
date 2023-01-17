@@ -28,9 +28,9 @@ const Contact = () => {
           <a href="/">return home</a>
         </HelloNote>
       </ContactHead>
-      <ContactForm>
+      {/* <ContactForm> */}
         <form  name="contact" method="post"  >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="contact"/>
           <NameAndEmail>
             <Name>
               <label type="name">name:</label>
@@ -80,7 +80,7 @@ const Contact = () => {
             SEND <i class="fa fa-send-o"></i>
           </StyledButton>
         </form>
-      </ContactForm>
+      {/* </ContactForm> */}
     </ContactSection>
   );
 };
