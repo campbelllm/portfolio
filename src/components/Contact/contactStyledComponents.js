@@ -6,6 +6,10 @@ export const ContactSection = styled.div`
   flex-wrap: wrap;
   margin: 0;
   padding: 20px 80px 0 80px;
+  
+  @media (max-width: 400px){
+    padding: 0
+  }
 `;
 
 export const ContactHead = styled.div`
@@ -36,6 +40,9 @@ export const ContactForm = styled.div`
     float: left;
     margin: 0;
   }
+  @media (max-width: 400px){
+    padding: 0
+  }
 `;
 
 export const Title = styled.div`
@@ -44,6 +51,11 @@ export const Title = styled.div`
   & h1 {
     font-size: 40px;
     color: black;
+  }
+  @media (max-width: 400px){
+    display: flex;
+    justify-content:center; 
+    padding: 0
   }
 `;
 export const HelloNote = styled.div`
@@ -55,6 +67,9 @@ export const HelloNote = styled.div`
   & p {
     text-align: left;
     font-weight: bold;
+    @media (max-width: 400px){
+    display: none;
+  }
   }
   & a {
     text-decoration: none;
@@ -65,9 +80,18 @@ export const HelloNote = styled.div`
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
+    @media (max-width: 400px){
+    text-decoration: underline 1px;
+  }
   }
   & a:hover {
     background-size: 100% 1px, auto;
+  }
+  @media (max-width: 400px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0
   }
 `;
 
@@ -75,12 +99,18 @@ export const NameAndEmail = styled.div`
   display: flex;
   margin: 30px 0;
   width: 100%;
+  @media (max-width: 400px){
+    flex-direction:column ;
+  }
 `;
 
 export const Name = styled.div`
   width: 50%;
   margin: 0 5px 0 0;
 
+  @media (max-width: 400px){
+    width: 100%
+  }
   @media (max-width: 1000px) {
     width: 100%;
     padding: 25px 0px;
@@ -90,6 +120,10 @@ export const Name = styled.div`
 export const Email = styled.div`
   width: 50%;
   margin: 0 0 0 5px;
+
+  @media (max-width: 400px){
+    width: 100%
+  }
 
   @media (max-width: 1000px) {
     width: 100%;
@@ -133,9 +167,13 @@ export const StyledButton = styled.div`
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
+    @media (max-width: 400px){
+    text-decoration: underline 1px;
+  }
   }
   & input:hover {
     cursor: pointer;
     background-size: 100% 1px, auto;
   }
+  
 `;
