@@ -7,7 +7,7 @@ export const ContactSection = styled.div`
   margin: 0;
   padding: 20px 80px 0 80px;
   
-  @media (max-width: 400px){
+  @media (max-width: 1000px){
     padding: 0
   }
 `;
@@ -40,7 +40,7 @@ export const ContactForm = styled.div`
     float: left;
     margin: 0;
   }
-  @media (max-width: 400px){
+  @media (max-width: 1000px){
     padding: 0
   }
 `;
@@ -52,7 +52,7 @@ export const Title = styled.div`
     font-size: 40px;
     color: black;
   }
-  @media (max-width: 400px){
+  @media (max-width: 1000px){
     display: flex;
     justify-content:center; 
     padding: 0
@@ -67,7 +67,7 @@ export const HelloNote = styled.div`
   & p {
     text-align: left;
     font-weight: bold;
-    @media (max-width: 400px){
+    @media (max-width: 1000px){
     display: none;
   }
   }
@@ -80,14 +80,14 @@ export const HelloNote = styled.div`
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
-    @media (max-width: 400px){
+    @media (max-width: 1000px){
     text-decoration: underline 1px;
   }
   }
   & a:hover {
     background-size: 100% 1px, auto;
   }
-  @media (max-width: 400px){
+  @media (max-width: 1000px){
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,7 +99,7 @@ export const NameAndEmail = styled.div`
   display: flex;
   margin: 30px 0;
   width: 100%;
-  @media (max-width: 400px){
+  @media (max-width: 1000px){
     flex-direction:column ;
   }
 `;
@@ -108,7 +108,7 @@ export const Name = styled.div`
   width: 50%;
   margin: 0 5px 0 0;
 
-  @media (max-width: 400px){
+  @media (max-width: 1000px){
     width: 100%
   }
   @media (max-width: 1000px) {
@@ -121,7 +121,7 @@ export const Email = styled.div`
   width: 50%;
   margin: 0 0 0 5px;
 
-  @media (max-width: 400px){
+  @media (max-width: 1000px){
     width: 100%
   }
 
@@ -167,7 +167,7 @@ export const StyledButton = styled.div`
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
-    @media (max-width: 400px){
+    @media (max-width: 1000px){
     text-decoration: underline 1px;
   }
   }

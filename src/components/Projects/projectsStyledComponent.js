@@ -5,7 +5,7 @@ export const AllProjects = styled.div`
   flex-direction: row;
   width: 100%;
   margin: 0;
-  @media   (max-width: 400px) {
+  @media   (max-width: 500px) {
     flex-direction: column;
   }
 `;
@@ -16,7 +16,7 @@ export const ProjectSection1 = styled.div`
   flex-direction: column;
   width: 50%;
   margin: 0;
-  @media   (max-width: 400px) {
+  @media   (max-width: 500px) {
     width: 100%;
   }
 `;
@@ -27,7 +27,7 @@ export const ProjectSection2 = styled.div`
   flex-direction: column;
   width: 50%;
   margin: 0;
-  @media   (max-width: 400px) {
+  @media   (max-width: 500px) {
     width: 100%;
   }
 `;

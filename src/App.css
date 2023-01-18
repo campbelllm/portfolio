@@ -12,9 +12,10 @@ body, * {
  
 }
 
-@media   (max-width: 400px) {
+@media   (max-width: 1000px) {
     body, * {
       margin: 0 10px;
     }
+   
   }
 

@@ -38,6 +38,9 @@ export const Contact = styled.div`
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
+    @media (max-width: 1000px){
+        text-decoration: underline 1px;
+    }
   }
   & a:hover {
     background-size: 100% 1px, auto;
