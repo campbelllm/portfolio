@@ -6,4 +6,9 @@ export const HomeSection = styled.div `
     flex-direction: column; 
     margin: 0;
     padding: 20px 80px 0 80px;
+
+    @media (max-width: 768px) {
+    padding: 0px
+  }
 `
+

@@ -5,8 +5,7 @@ export const StyledFooter = styled.div`
   border-bottom: 0.5px solid black;
   text-align: center;
   padding: 20px 0px;
-  margin-top: 20px;
+  margin: 40px 0 0 0;
   width: 100%;
-  margin: 0;
 `;
 
