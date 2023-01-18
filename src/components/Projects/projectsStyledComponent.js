@@ -5,7 +5,9 @@ export const AllProjects = styled.div`
   flex-direction: row;
   width: 100%;
   margin: 0;
-  
+  @media   (max-width: 400px) {
+    flex-direction: column;
+  }
 `;
 
 export const ProjectSection1 = styled.div`
@@ -14,6 +16,9 @@ export const ProjectSection1 = styled.div`
   flex-direction: column;
   width: 50%;
   margin: 0;
+  @media   (max-width: 400px) {
+    width: 100%;
+  }
 `;
 
 export const ProjectSection2 = styled.div`
@@ -22,6 +27,9 @@ export const ProjectSection2 = styled.div`
   flex-direction: column;
   width: 50%;
   margin: 0;
+  @media   (max-width: 400px) {
+    width: 100%;
+  }
 `;
 
 export const Project = styled.div`
@@ -48,8 +56,8 @@ export const Project = styled.div`
     background: #fff;
     opacity: 0.5;
   }
-  @media (max-width: 768px) {
-    height: 300px;
+   @media (max-width: 1000px) {
+    height: 400px;
     margin: 0;
     margin: 20px;
   }

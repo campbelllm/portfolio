@@ -81,7 +81,7 @@ export const Name = styled.div`
   width: 50%;
   margin: 0 5px 0 0;
 
-  @media (max-width: 950px) {
+  @media (max-width: 1000px) {
     width: 100%;
     padding: 25px 0px;
   }
@@ -91,7 +91,7 @@ export const Email = styled.div`
   width: 50%;
   margin: 0 0 0 5px;
 
-  @media (max-width: 950px) {
+  @media (max-width: 1000px) {
     width: 100%;
   }
 `;

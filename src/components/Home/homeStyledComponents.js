@@ -7,7 +7,7 @@ export const HomeSection = styled.div `
     margin: 0;
     padding: 20px 80px 0 80px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
     padding: 0px
   }
 `
