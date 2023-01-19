@@ -13,7 +13,13 @@ import {
   StyledButton,
 } from "./contactStyledComponents";
 
+
+
 const Contact = () => {
+    const submitMessage = function (e) {
+        alert("Thank you for your message!")
+        e.preventDefault();
+    }
   return (
     <ContactSection>
       <ContactHead>
@@ -27,7 +33,7 @@ const Contact = () => {
         </HelloNote>
       </ContactHead>
       <ContactForm>
-        <form name="contact" method="post">
+        <form name="contact" method="post" onSubmit={submitMessage}>
           <input type="hidden" name="form-name" value="contact" />
           <NameAndEmail>
             <Name>
@@ -73,22 +79,13 @@ const Contact = () => {
           <StyledButton>
             <button type="submit" name="submit">SEND</button> 
           </StyledButton>
-        </form>
-      </ContactForm>
-      {/* {!this.state.formError
-        ?
-        <Message
+          <Message
             success
             header="Form completed"
             content="Thank you for your contribution."
         />
-        :
-        <Message
-            error
-            header="Missing fields!" 
-            list={['All fields must be filled.']}
-        />
-    } */}
+        </form>
+      </ContactForm>
     </ContactSection>
   );
 };
