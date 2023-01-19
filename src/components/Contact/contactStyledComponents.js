@@ -6,9 +6,9 @@ export const ContactSection = styled.div`
   flex-wrap: wrap;
   margin: 0;
   padding: 20px 80px 0 80px;
-  
-  @media (max-width: 1000px){
-    padding: 0
+
+  @media (max-width: 1000px) {
+    padding: 0;
   }
 `;
 
@@ -40,8 +40,8 @@ export const ContactForm = styled.div`
     float: left;
     margin: 0;
   }
-  @media (max-width: 1000px){
-    padding: 0
+  @media (max-width: 1000px) {
+    padding: 0;
   }
 `;
 
@@ -52,10 +52,10 @@ export const Title = styled.div`
     font-size: 40px;
     color: black;
   }
-  @media (max-width: 1000px){
+  @media (max-width: 1000px) {
     display: flex;
-    justify-content:center; 
-    padding: 0
+    justify-content: center;
+    padding: 0;
   }
 `;
 export const HelloNote = styled.div`
@@ -67,9 +67,9 @@ export const HelloNote = styled.div`
   & p {
     text-align: left;
     font-weight: bold;
-    @media (max-width: 1000px){
-    display: none;
-  }
+    @media (max-width: 1000px) {
+      display: none;
+    }
   }
   & a {
     text-decoration: none;
@@ -80,18 +80,18 @@ export const HelloNote = styled.div`
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
-    @media (max-width: 1000px){
-    text-decoration: underline 1px;
-  }
+    @media (max-width: 1000px) {
+      text-decoration: underline 1px;
+    }
   }
   & a:hover {
     background-size: 100% 1px, auto;
   }
-  @media (max-width: 1000px){
+  @media (max-width: 1000px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0
+    padding: 0;
   }
 `;
 
@@ -99,8 +99,8 @@ export const NameAndEmail = styled.div`
   display: flex;
   margin: 30px 0;
   width: 100%;
-  @media (max-width: 1000px){
-    flex-direction:column ;
+  @media (max-width: 1000px) {
+    flex-direction: column;
   }
 `;
 
@@ -108,8 +108,8 @@ export const Name = styled.div`
   width: 50%;
   margin: 0 5px 0 0;
 
-  @media (max-width: 1000px){
-    width: 100%
+  @media (max-width: 1000px) {
+    width: 100%;
   }
   @media (max-width: 1000px) {
     width: 100%;
@@ -121,8 +121,8 @@ export const Email = styled.div`
   width: 50%;
   margin: 0 0 0 5px;
 
-  @media (max-width: 1000px){
-    width: 100%
+  @media (max-width: 1000px) {
+    width: 100%;
   }
 
   @media (max-width: 1000px) {
@@ -151,29 +151,28 @@ export const Message = styled.div`
 `;
 
 export const StyledButton = styled.div`
-  
   float: right;
   margin: 0;
   text-decoration: none;
-  & input {
-    margin: 0;
+  & button {
+    margin: 0%;
+    padding-top: 20px;
     color: black;
-  font-size: 18px;
+    font-size: 18px;
     background: none;
-    border-bottom: none;
+    border: none;
     text-decoration: none;
     background-image: linear-gradient(black, black);
     background-size: 0 1px, auto;
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all 0.2s ease-out;
-    @media (max-width: 1000px){
-    text-decoration: underline 1px;
+    @media (max-width: 1000px) {
+      text-decoration: underline 1px;
+    }
   }
-  }
-  & input:hover {
+  & button:hover {
     cursor: pointer;
     background-size: 100% 1px, auto;
   }
-  
 `;

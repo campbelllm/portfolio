@@ -71,10 +71,24 @@ const Contact = () => {
             ></textarea>
           </Message>
           <StyledButton>
-            <input type="submit" name="submit" value="SEND" />
+            <button type="submit" name="submit">SEND</button> 
           </StyledButton>
         </form>
       </ContactForm>
+      {/* {!this.state.formError
+        ?
+        <Message
+            success
+            header="Form completed"
+            content="Thank you for your contribution."
+        />
+        :
+        <Message
+            error
+            header="Missing fields!" 
+            list={['All fields must be filled.']}
+        />
+    } */}
     </ContactSection>
   );
 };
