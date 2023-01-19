@@ -16,9 +16,6 @@ import {
 
 
 const Contact = () => {
-    const submitMessage = function (e) {
-        alert("Thank you for your message!")
-    }
   return (
     <ContactSection>
       <ContactHead>
@@ -32,7 +29,7 @@ const Contact = () => {
         </HelloNote>
       </ContactHead>
       <ContactForm>
-        <form name="contact" method="post" onSubmit={submitMessage}>
+        <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <NameAndEmail>
             <Name>
@@ -78,11 +75,6 @@ const Contact = () => {
           <StyledButton>
             <button type="submit" name="submit">SEND</button> 
           </StyledButton>
-          <Message
-            success
-            header="Form completed"
-            content="Thank you for your contribution."
-        />
         </form>
       </ContactForm>
     </ContactSection>

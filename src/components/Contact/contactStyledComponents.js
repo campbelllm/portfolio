@@ -40,6 +40,9 @@ export const ContactForm = styled.div`
     float: left;
     margin: 0;
   }
+  & :focus {
+    outline: none;
+  }
   @media (max-width: 1000px) {
     padding: 0;
   }
