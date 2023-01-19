@@ -18,7 +18,6 @@ import {
 const Contact = () => {
     const submitMessage = function (e) {
         alert("Thank you for your message!")
-        e.preventDefault();
     }
   return (
     <ContactSection>
