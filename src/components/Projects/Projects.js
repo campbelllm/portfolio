@@ -11,7 +11,7 @@ const Projects = () => {
     <AllProjects>
       <ProjectSection1>
         <Project>
-          <a href="#">Project 1</a>
+          <a href="/https://lindseysmithtetris.netlify.app/">Project 1</a>
         </Project>
         <Project>
           <a href="#">Project 3</a>
