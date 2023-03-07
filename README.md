@@ -12,12 +12,5 @@ Link to gitHub pages site:
 
 https://campbelllm.github.io/portfolio/
 
-Preview of site:
 
-Light mode
 
-![Preview of Project](./src/Images/portfolioPreview.png)
-
-Dark Mode
-
-![Preview of Dark Mode](./src/Images/darkMode.png)
