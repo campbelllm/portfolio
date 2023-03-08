@@ -44,8 +44,9 @@ export const Project1 = styled.div`
 
   & a {
     display: flex;
-    color: transparent;
-    font-size: 60px;
+    ${'' /* color: transparent; */}
+    color: black;
+    font-size: 100px;
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -57,7 +58,7 @@ export const Project1 = styled.div`
   & a:hover {
     color: #d3c4be;
     background: #fff;
-    opacity: 0.5;
+    opacity: 0.6;
   }
    @media (max-width: 1000px) {
     height: 400px;
