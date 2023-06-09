@@ -18,7 +18,7 @@ const Projects = () => {
           
         </Project1>
         <Project3>
-          <a href="#">Project 3</a>
+          <a href="https://lindseysmith-colorchanger.netlify.app/">Project 3</a>
         </Project3>
       </ProjectSection1>
       <ProjectSection2>
